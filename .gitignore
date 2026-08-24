@@ -1,0 +1,33 @@
+
+# Dataset
+Dataset/
+data/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+cordnet-env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+EOF

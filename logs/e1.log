@@ -1,0 +1,201 @@
+2026-08-22 21:24:06 | INFO     | utils | Logging to logs/e1.log
+2026-08-22 21:24:06 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-08-22 21:24:06 | INFO     | __main__ |   CoRD-Net — Baseline ConvNeXt
+2026-08-22 21:24:06 | INFO     | __main__ |   Experiment  : E1
+2026-08-22 21:24:06 | INFO     | __main__ |   Device      : cuda
+2026-08-22 21:24:06 | INFO     | __main__ |   Epochs      : 60
+2026-08-22 21:24:06 | INFO     | __main__ |   Batch size  : 16
+2026-08-22 21:24:06 | INFO     | __main__ |   Data root   : Dataset
+2026-08-22 21:24:06 | INFO     | __main__ |   Pretrained  : True
+2026-08-22 21:24:06 | INFO     | __main__ |   Results dir : results
+2026-08-22 21:24:06 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-08-22 21:25:20 | INFO     | utils | Logging to logs/e1.log
+2026-08-22 21:25:20 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-08-22 21:25:20 | INFO     | __main__ |   CoRD-Net — Baseline ConvNeXt
+2026-08-22 21:25:20 | INFO     | __main__ |   Experiment  : E1
+2026-08-22 21:25:20 | INFO     | __main__ |   Device      : cuda
+2026-08-22 21:25:20 | INFO     | __main__ |   Epochs      : 60
+2026-08-22 21:25:20 | INFO     | __main__ |   Batch size  : 16
+2026-08-22 21:25:20 | INFO     | __main__ |   Data root   : Dataset
+2026-08-22 21:25:20 | INFO     | __main__ |   Pretrained  : True
+2026-08-22 21:25:20 | INFO     | __main__ |   Results dir : results
+2026-08-22 21:25:20 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-08-22 21:29:55 | INFO     | utils | Logging to logs/e1.log
+2026-08-22 21:29:55 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-08-22 21:29:55 | INFO     | __main__ |   CoRD-Net — Baseline ConvNeXt
+2026-08-22 21:29:55 | INFO     | __main__ |   Experiment  : E1
+2026-08-22 21:29:55 | INFO     | __main__ |   Device      : cuda
+2026-08-22 21:29:55 | INFO     | __main__ |   Epochs      : 60
+2026-08-22 21:29:55 | INFO     | __main__ |   Batch size  : 16
+2026-08-22 21:29:55 | INFO     | __main__ |   Data root   : Dataset
+2026-08-22 21:29:55 | INFO     | __main__ |   Pretrained  : True
+2026-08-22 21:29:55 | INFO     | __main__ |   Results dir : results
+2026-08-22 21:29:55 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-08-22 21:29:55 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-22 21:29:55 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-22 21:29:55 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-22 21:29:55 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-22 21:29:55 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-22 21:29:55 | INFO     | utils | ┌─ E1 active modules ──────────────────────────────────┐
+2026-08-22 21:29:55 | INFO     | utils | │  ✗  STN (Auto-Localization)                        │
+2026-08-22 21:29:55 | INFO     | utils | │  ✗  Dual-Intensity Stem                            │
+2026-08-22 21:29:55 | INFO     | utils | │  ✗  Compartment Branches                           │
+2026-08-22 21:29:55 | INFO     | utils | │  ✗  Soft ROI Mask (DRP Block)                      │
+2026-08-22 21:29:55 | INFO     | utils | │  ✗  Prototype-Guided Refinement (PGR)              │
+2026-08-22 21:29:55 | INFO     | utils | │  ✗  Relational Token Coupling (RTC)                │
+2026-08-22 21:29:55 | INFO     | utils | │  ✗  Auxiliary Heads                                │
+2026-08-22 21:29:55 | INFO     | utils | └────────────────────────────────────────────────────┘
+2026-08-22 21:29:55 | INFO     | utils | ┌─ E1 parameter summary ──────────────────────────────┐
+2026-08-22 21:29:55 | INFO     | utils | │  Total parameters    : 28,214,885                  │
+2026-08-22 21:29:55 | INFO     | utils | │  Trainable parameters: 28,214,885                  │
+2026-08-22 21:29:55 | INFO     | utils | └────────────────────────────────────────────────────┘
+2026-08-22 21:29:55 | INFO     | trainer | Training E1 | epochs 1→60 | device=cuda
+2026-08-22 21:30:27 | INFO     | trainer | Val pred dist : [654, 0, 164, 8, 0]
+2026-08-22 21:30:27 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:30:27 | INFO     | utils | Checkpoint saved → checkpoints/e1_best.pt
+2026-08-22 21:30:27 | INFO     | trainer | epoch=1/60 | time=27.7s | lr=1.00e-05 | train/kl=1.3203 | train/total=1.3203 | train/accuracy=0.4408 | val/kl=1.2450 | val/total=1.2450 | val/accuracy=0.4479 | val/kappa=0.4244 | val/mae=0.8656 | val/macro_f1=0.1893
+2026-08-22 21:30:53 | INFO     | trainer | Val pred dist : [674, 0, 92, 59, 1]
+2026-08-22 21:30:53 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:30:54 | INFO     | utils | Checkpoint saved → checkpoints/e1_best.pt
+2026-08-22 21:30:54 | INFO     | trainer | epoch=2/60 | time=24.3s | lr=2.80e-05 | train/kl=1.0946 | train/total=1.0946 | train/accuracy=0.5436 | val/kl=1.3465 | val/total=1.3465 | val/accuracy=0.4818 | val/kappa=0.5165 | val/mae=0.7966 | val/macro_f1=0.2755
+2026-08-22 21:31:20 | INFO     | trainer | Val pred dist : [470, 66, 163, 114, 13]
+2026-08-22 21:31:20 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:31:21 | INFO     | utils | Checkpoint saved → checkpoints/e1_best.pt
+2026-08-22 21:31:21 | INFO     | trainer | epoch=3/60 | time=24.3s | lr=4.60e-05 | train/kl=0.9804 | train/total=0.9804 | train/accuracy=0.5869 | val/kl=0.8968 | val/total=0.8968 | val/accuracy=0.6162 | val/kappa=0.7642 | val/mae=0.4855 | val/macro_f1=0.5638
+2026-08-22 21:31:47 | INFO     | trainer | Val pred dist : [391, 0, 357, 59, 19]
+2026-08-22 21:31:47 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:31:47 | INFO     | trainer | epoch=4/60 | time=24.3s | lr=6.40e-05 | train/kl=0.8965 | train/total=0.8965 | train/accuracy=0.6227 | val/kl=0.8779 | val/total=0.8779 | val/accuracy=0.6090 | val/kappa=0.7193 | val/mae=0.5206 | val/macro_f1=0.5492
+2026-08-22 21:32:14 | INFO     | trainer | Val pred dist : [459, 40, 226, 80, 21]
+2026-08-22 21:32:14 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:32:14 | INFO     | utils | Checkpoint saved → checkpoints/e1_best.pt
+2026-08-22 21:32:14 | INFO     | trainer | epoch=5/60 | time=24.3s | lr=8.20e-05 | train/kl=0.8817 | train/total=0.8817 | train/accuracy=0.6333 | val/kl=0.8435 | val/total=0.8435 | val/accuracy=0.6429 | val/kappa=0.7701 | val/mae=0.4588 | val/macro_f1=0.6145
+2026-08-22 21:32:41 | INFO     | trainer | Val pred dist : [382, 16, 363, 38, 27]
+2026-08-22 21:32:41 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:32:41 | INFO     | trainer | epoch=6/60 | time=24.3s | lr=1.00e-04 | train/kl=0.8528 | train/total=0.8528 | train/accuracy=0.6401 | val/kl=0.8948 | val/total=0.8948 | val/accuracy=0.6162 | val/kappa=0.7399 | val/mae=0.4952 | val/macro_f1=0.5632
+2026-08-22 21:33:08 | INFO     | trainer | Val pred dist : [444, 113, 189, 62, 18]
+2026-08-22 21:33:08 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:33:08 | INFO     | trainer | epoch=7/60 | time=24.4s | lr=9.99e-05 | train/kl=0.8240 | train/total=0.8240 | train/accuracy=0.6529 | val/kl=0.8948 | val/total=0.8948 | val/accuracy=0.6235 | val/kappa=0.7582 | val/mae=0.4722 | val/macro_f1=0.6047
+2026-08-22 21:33:35 | INFO     | trainer | Val pred dist : [483, 36, 154, 128, 25]
+2026-08-22 21:33:35 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:33:35 | INFO     | utils | Checkpoint saved → checkpoints/e1_best.pt
+2026-08-22 21:33:35 | INFO     | trainer | epoch=8/60 | time=24.4s | lr=9.97e-05 | train/kl=0.7950 | train/total=0.7950 | train/accuracy=0.6641 | val/kl=0.8108 | val/total=0.8108 | val/accuracy=0.6538 | val/kappa=0.7702 | val/mae=0.4637 | val/macro_f1=0.6134
+2026-08-22 21:34:02 | INFO     | trainer | Val pred dist : [455, 41, 236, 66, 28]
+2026-08-22 21:34:02 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:34:02 | INFO     | trainer | epoch=9/60 | time=24.5s | lr=9.93e-05 | train/kl=0.7614 | train/total=0.7614 | train/accuracy=0.6828 | val/kl=0.7987 | val/total=0.7987 | val/accuracy=0.6501 | val/kappa=0.7698 | val/mae=0.4552 | val/macro_f1=0.6256
+2026-08-22 21:34:29 | INFO     | trainer | Val pred dist : [495, 89, 135, 83, 24]
+2026-08-22 21:34:29 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:34:29 | INFO     | trainer | epoch=10/60 | time=24.4s | lr=9.87e-05 | train/kl=0.7566 | train/total=0.7566 | train/accuracy=0.6832 | val/kl=0.9007 | val/total=0.9007 | val/accuracy=0.6283 | val/kappa=0.7608 | val/mae=0.4806 | val/macro_f1=0.6209
+2026-08-22 21:34:29 | INFO     | utils | Checkpoint saved → checkpoints/e1_epoch0010.pt
+2026-08-22 21:34:56 | INFO     | trainer | Val pred dist : [287, 239, 159, 117, 24]
+2026-08-22 21:34:56 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:34:56 | INFO     | utils | Checkpoint saved → checkpoints/e1_best.pt
+2026-08-22 21:34:56 | INFO     | trainer | epoch=11/60 | time=24.3s | lr=9.80e-05 | train/kl=0.7268 | train/total=0.7268 | train/accuracy=0.6911 | val/kl=0.7957 | val/total=0.7957 | val/accuracy=0.6429 | val/kappa=0.8129 | val/mae=0.4056 | val/macro_f1=0.6839
+2026-08-22 21:35:23 | INFO     | trainer | Val pred dist : [366, 164, 186, 86, 24]
+2026-08-22 21:35:23 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:35:23 | INFO     | trainer | epoch=12/60 | time=24.3s | lr=9.71e-05 | train/kl=0.7082 | train/total=0.7082 | train/accuracy=0.7031 | val/kl=0.8081 | val/total=0.8081 | val/accuracy=0.6453 | val/kappa=0.7997 | val/mae=0.4201 | val/macro_f1=0.6744
+2026-08-22 21:35:49 | INFO     | trainer | Val pred dist : [468, 108, 149, 76, 25]
+2026-08-22 21:35:49 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:35:49 | INFO     | trainer | epoch=13/60 | time=24.4s | lr=9.61e-05 | train/kl=0.6856 | train/total=0.6856 | train/accuracy=0.7142 | val/kl=0.9277 | val/total=0.9277 | val/accuracy=0.6453 | val/kappa=0.7772 | val/mae=0.4492 | val/macro_f1=0.6459
+2026-08-22 21:36:16 | INFO     | trainer | Val pred dist : [436, 88, 189, 90, 23]
+2026-08-22 21:36:16 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:36:16 | INFO     | trainer | epoch=14/60 | time=24.5s | lr=9.49e-05 | train/kl=0.6595 | train/total=0.6595 | train/accuracy=0.7209 | val/kl=0.8286 | val/total=0.8286 | val/accuracy=0.6659 | val/kappa=0.7894 | val/mae=0.4249 | val/macro_f1=0.6675
+2026-08-22 21:36:43 | INFO     | trainer | Val pred dist : [401, 148, 172, 69, 36]
+2026-08-22 21:36:43 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:36:43 | INFO     | trainer | epoch=15/60 | time=24.4s | lr=9.36e-05 | train/kl=0.6581 | train/total=0.6581 | train/accuracy=0.7252 | val/kl=0.8537 | val/total=0.8537 | val/accuracy=0.6368 | val/kappa=0.7910 | val/mae=0.4407 | val/macro_f1=0.6348
+2026-08-22 21:37:10 | INFO     | trainer | Val pred dist : [409, 88, 221, 82, 26]
+2026-08-22 21:37:10 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:37:10 | INFO     | trainer | epoch=16/60 | time=24.3s | lr=9.21e-05 | train/kl=0.6233 | train/total=0.6233 | train/accuracy=0.7405 | val/kl=0.8558 | val/total=0.8558 | val/accuracy=0.6755 | val/kappa=0.8001 | val/mae=0.4056 | val/macro_f1=0.6765
+2026-08-22 21:37:37 | INFO     | trainer | Val pred dist : [339, 178, 184, 99, 26]
+2026-08-22 21:37:37 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:37:37 | INFO     | utils | Checkpoint saved → checkpoints/e1_best.pt
+2026-08-22 21:37:37 | INFO     | trainer | epoch=17/60 | time=24.4s | lr=9.05e-05 | train/kl=0.5981 | train/total=0.5981 | train/accuracy=0.7457 | val/kl=0.8585 | val/total=0.8585 | val/accuracy=0.6538 | val/kappa=0.8146 | val/mae=0.4019 | val/macro_f1=0.6748
+2026-08-22 21:38:04 | INFO     | trainer | Val pred dist : [357, 191, 139, 114, 25]
+2026-08-22 21:38:04 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:38:04 | INFO     | trainer | epoch=18/60 | time=24.4s | lr=8.88e-05 | train/kl=0.5837 | train/total=0.5837 | train/accuracy=0.7528 | val/kl=0.9336 | val/total=0.9336 | val/accuracy=0.6404 | val/kappa=0.8083 | val/mae=0.4189 | val/macro_f1=0.6716
+2026-08-22 21:38:30 | INFO     | trainer | Val pred dist : [325, 161, 213, 105, 22]
+2026-08-22 21:38:30 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:38:30 | INFO     | trainer | epoch=19/60 | time=24.4s | lr=8.70e-05 | train/kl=0.5714 | train/total=0.5714 | train/accuracy=0.7635 | val/kl=0.9160 | val/total=0.9160 | val/accuracy=0.6453 | val/kappa=0.7937 | val/mae=0.4249 | val/macro_f1=0.6679
+2026-08-22 21:38:57 | INFO     | trainer | Val pred dist : [286, 207, 212, 95, 26]
+2026-08-22 21:38:57 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:38:57 | INFO     | trainer | epoch=20/60 | time=24.4s | lr=8.50e-05 | train/kl=0.5151 | train/total=0.5151 | train/accuracy=0.7851 | val/kl=0.9765 | val/total=0.9765 | val/accuracy=0.6441 | val/kappa=0.8054 | val/mae=0.4128 | val/macro_f1=0.6751
+2026-08-22 21:38:57 | INFO     | utils | Checkpoint saved → checkpoints/e1_epoch0020.pt
+2026-08-22 21:39:24 | INFO     | trainer | Val pred dist : [306, 133, 273, 86, 28]
+2026-08-22 21:39:24 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:39:24 | INFO     | trainer | epoch=21/60 | time=24.3s | lr=8.29e-05 | train/kl=0.4977 | train/total=0.4977 | train/accuracy=0.7943 | val/kl=1.0040 | val/total=1.0040 | val/accuracy=0.6574 | val/kappa=0.7953 | val/mae=0.4165 | val/macro_f1=0.6777
+2026-08-22 21:39:51 | INFO     | trainer | Val pred dist : [410, 135, 149, 103, 29]
+2026-08-22 21:39:51 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:39:51 | INFO     | trainer | epoch=22/60 | time=24.3s | lr=8.07e-05 | train/kl=0.4730 | train/total=0.4730 | train/accuracy=0.8104 | val/kl=1.0730 | val/total=1.0730 | val/accuracy=0.6477 | val/kappa=0.7984 | val/mae=0.4298 | val/macro_f1=0.6571
+2026-08-22 21:40:17 | INFO     | trainer | Val pred dist : [315, 202, 165, 121, 23]
+2026-08-22 21:40:17 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:40:17 | INFO     | trainer | epoch=23/60 | time=24.2s | lr=7.84e-05 | train/kl=0.4455 | train/total=0.4455 | train/accuracy=0.8274 | val/kl=1.0240 | val/total=1.0240 | val/accuracy=0.6441 | val/kappa=0.8120 | val/mae=0.4116 | val/macro_f1=0.6790
+2026-08-22 21:40:44 | INFO     | trainer | Val pred dist : [294, 201, 200, 101, 30]
+2026-08-22 21:40:44 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:40:44 | INFO     | trainer | epoch=24/60 | time=24.3s | lr=7.61e-05 | train/kl=0.4016 | train/total=0.4016 | train/accuracy=0.8399 | val/kl=1.0796 | val/total=1.0796 | val/accuracy=0.6308 | val/kappa=0.7996 | val/mae=0.4298 | val/macro_f1=0.6715
+2026-08-22 21:41:11 | INFO     | trainer | Val pred dist : [310, 182, 207, 105, 22]
+2026-08-22 21:41:11 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:41:11 | INFO     | trainer | epoch=25/60 | time=24.3s | lr=7.36e-05 | train/kl=0.3755 | train/total=0.3755 | train/accuracy=0.8542 | val/kl=1.2443 | val/total=1.2443 | val/accuracy=0.6453 | val/kappa=0.7963 | val/mae=0.4213 | val/macro_f1=0.6747
+2026-08-22 21:41:37 | INFO     | trainer | Val pred dist : [265, 235, 194, 109, 23]
+2026-08-22 21:41:37 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:41:37 | INFO     | trainer | epoch=26/60 | time=24.3s | lr=7.11e-05 | train/kl=0.3651 | train/total=0.3651 | train/accuracy=0.8554 | val/kl=1.3079 | val/total=1.3079 | val/accuracy=0.6295 | val/kappa=0.8046 | val/mae=0.4201 | val/macro_f1=0.6784
+2026-08-22 21:42:04 | INFO     | trainer | Val pred dist : [318, 184, 187, 116, 21]
+2026-08-22 21:42:04 | INFO     | trainer | Val true dist : [328, 153, 212, 106, 27]
+2026-08-22 21:42:04 | INFO     | trainer | epoch=27/60 | time=24.4s | lr=6.85e-05 | train/kl=0.3239 | train/total=0.3239 | train/accuracy=0.8778 | val/kl=1.3229 | val/total=1.3229 | val/accuracy=0.6550 | val/kappa=0.8061 | val/mae=0.4080 | val/macro_f1=0.6867
+2026-08-22 21:42:04 | INFO     | trainer | Early stopping at epoch 27
+2026-08-22 21:42:05 | INFO     | utils | Checkpoint saved → checkpoints/e1_final.pt
+2026-08-22 21:42:05 | INFO     | trainer | Training complete.
+2026-08-22 21:42:05 | INFO     | utils | Checkpoint loaded ← checkpoints/e1_best.pt  (experiment=e1  epoch=17)
+2026-08-22 21:42:05 | INFO     | reporting | Results directory: results/e1
+2026-08-22 21:42:29 | INFO     | reporting | Generating reports for experiment 'e1' …
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/val_confusion_matrix.png
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/val_confusion_matrix.csv
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/test_confusion_matrix.png
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/test_confusion_matrix.csv
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/classification_report_val.txt
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/classification_report_test.txt
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/predictions.csv
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/metrics.json
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/metrics.csv
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/plots/loss_curve.png
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/plots/accuracy_curve.png
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/plots/loss_vs_accuracy.png
+2026-08-22 21:42:30 | INFO     | reporting | Saved results/e1/plots/f1_curve.png
+2026-08-22 21:42:31 | INFO     | reporting | Saved results/e1/plots/qwk_curve.png
+2026-08-22 21:42:31 | INFO     | reporting | Saved results/e1/plots/mae_curve.png
+2026-08-22 21:42:31 | INFO     | reporting | Saved results/e1/plots/learning_rate_curve.png
+2026-08-22 21:42:31 | INFO     | reporting | ====================================================
+2026-08-22 21:42:31 | INFO     | reporting |   FINAL RESULTS
+2026-08-22 21:42:31 | INFO     | reporting | ====================================================
+2026-08-22 21:42:31 | INFO     | reporting | TRAIN
+2026-08-22 21:42:31 | INFO     | reporting |   Accuracy           : 0.7919
+2026-08-22 21:42:31 | INFO     | reporting |   Macro Precision    : 0.8206
+2026-08-22 21:42:31 | INFO     | reporting |   Macro Recall       : 0.8133
+2026-08-22 21:42:31 | INFO     | reporting |   Macro F1           : 0.8163
+2026-08-22 21:42:31 | INFO     | reporting |   Weighted Precision : 0.7955
+2026-08-22 21:42:31 | INFO     | reporting |   Weighted Recall    : 0.7919
+2026-08-22 21:42:31 | INFO     | reporting |   Weighted F1        : 0.7929
+2026-08-22 21:42:31 | INFO     | reporting |   MAE                : 0.2296
+2026-08-22 21:42:31 | INFO     | reporting |   QWK                : 0.9030
+2026-08-22 21:42:31 | INFO     | reporting |   ------------------------------------------------
+2026-08-22 21:42:31 | INFO     | reporting | VALIDATION
+2026-08-22 21:42:31 | INFO     | reporting |   Accuracy           : 0.6538
+2026-08-22 21:42:31 | INFO     | reporting |   Macro Precision    : 0.6853
+2026-08-22 21:42:31 | INFO     | reporting |   Macro Recall       : 0.6669
+2026-08-22 21:42:31 | INFO     | reporting |   Macro F1           : 0.6748
+2026-08-22 21:42:31 | INFO     | reporting |   Weighted Precision : 0.6640
+2026-08-22 21:42:31 | INFO     | reporting |   Weighted Recall    : 0.6538
+2026-08-22 21:42:31 | INFO     | reporting |   Weighted F1        : 0.6575
+2026-08-22 21:42:31 | INFO     | reporting |   MAE                : 0.4019
+2026-08-22 21:42:31 | INFO     | reporting |   QWK                : 0.8146
+2026-08-22 21:42:31 | INFO     | reporting |   ------------------------------------------------
+2026-08-22 21:42:31 | INFO     | reporting | TEST
+2026-08-22 21:42:31 | INFO     | reporting |   Accuracy           : 0.6733
+2026-08-22 21:42:31 | INFO     | reporting |   Macro Precision    : 0.6963
+2026-08-22 21:42:31 | INFO     | reporting |   Macro Recall       : 0.6755
+2026-08-22 21:42:31 | INFO     | reporting |   Macro F1           : 0.6838
+2026-08-22 21:42:31 | INFO     | reporting |   Weighted Precision : 0.6825
+2026-08-22 21:42:31 | INFO     | reporting |   Weighted Recall    : 0.6733
+2026-08-22 21:42:31 | INFO     | reporting |   Weighted F1        : 0.6755
+2026-08-22 21:42:31 | INFO     | reporting |   MAE                : 0.3665
+2026-08-22 21:42:31 | INFO     | reporting |   QWK                : 0.8406
+2026-08-22 21:42:31 | INFO     | reporting | ====================================================
+2026-08-22 21:42:31 | INFO     | reporting | Ablation summary updated → results/ablation_summary.csv

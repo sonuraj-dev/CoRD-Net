@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+         KL0       0.75      0.84      0.79       639
+         KL1       0.36      0.36      0.36       296
+         KL2       0.71      0.57      0.63       447
+         KL3       0.77      0.80      0.79       223
+         KL4       0.84      0.84      0.84        51
+
+    accuracy                           0.68      1656
+   macro avg       0.69      0.68      0.68      1656
+weighted avg       0.68      0.68      0.67      1656

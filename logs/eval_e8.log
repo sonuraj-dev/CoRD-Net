@@ -1,0 +1,56 @@
+2026-08-23 04:34:54 | INFO     | utils | Logging to logs/eval_e8.log
+2026-08-23 04:34:54 | INFO     | models.localization | KneeLocalizer: using pretrained MobileNetV3-Small backbone
+2026-08-23 04:34:55 | INFO     | utils | Checkpoint loaded ← checkpoints/e8_best.pt  (experiment=e8  epoch=4)
+2026-08-23 04:34:55 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-23 04:34:55 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-23 04:34:55 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-23 04:34:55 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-23 04:34:55 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-23 04:34:55 | INFO     | __main__ | Collecting logits …
+2026-08-23 04:35:43 | INFO     | reporting | Results directory: results/e8
+2026-08-23 04:35:43 | INFO     | reporting | Generating reports for experiment 'e8' …
+2026-08-23 04:35:43 | INFO     | reporting | Saved results/e8/val_confusion_matrix.png
+2026-08-23 04:35:43 | INFO     | reporting | Saved results/e8/val_confusion_matrix.csv
+2026-08-23 04:35:43 | INFO     | reporting | Saved results/e8/test_confusion_matrix.png
+2026-08-23 04:35:43 | INFO     | reporting | Saved results/e8/test_confusion_matrix.csv
+2026-08-23 04:35:43 | INFO     | reporting | Saved results/e8/classification_report_val.txt
+2026-08-23 04:35:43 | INFO     | reporting | Saved results/e8/classification_report_test.txt
+2026-08-23 04:35:43 | INFO     | reporting | Saved results/e8/predictions.csv
+2026-08-23 04:35:43 | INFO     | reporting | Saved results/e8/metrics.json
+2026-08-23 04:35:43 | INFO     | reporting | Saved results/e8/metrics.csv
+2026-08-23 04:35:43 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-08-23 04:35:43 | INFO     | reporting | ====================================================
+2026-08-23 04:35:43 | INFO     | reporting |   FINAL RESULTS
+2026-08-23 04:35:43 | INFO     | reporting | ====================================================
+2026-08-23 04:35:43 | INFO     | reporting | TRAIN
+2026-08-23 04:35:43 | INFO     | reporting |   Accuracy           : nan
+2026-08-23 04:35:43 | INFO     | reporting |   Macro Precision    : nan
+2026-08-23 04:35:43 | INFO     | reporting |   Macro Recall       : nan
+2026-08-23 04:35:43 | INFO     | reporting |   Macro F1           : nan
+2026-08-23 04:35:43 | INFO     | reporting |   Weighted Precision : nan
+2026-08-23 04:35:43 | INFO     | reporting |   Weighted Recall    : nan
+2026-08-23 04:35:43 | INFO     | reporting |   Weighted F1        : nan
+2026-08-23 04:35:43 | INFO     | reporting |   ------------------------------------------------
+2026-08-23 04:35:43 | INFO     | reporting | VALIDATION
+2026-08-23 04:35:43 | INFO     | reporting |   Accuracy           : 0.6223
+2026-08-23 04:35:43 | INFO     | reporting |   Macro Precision    : 0.6638
+2026-08-23 04:35:43 | INFO     | reporting |   Macro Recall       : 0.6801
+2026-08-23 04:35:43 | INFO     | reporting |   Macro F1           : 0.6659
+2026-08-23 04:35:43 | INFO     | reporting |   Weighted Precision : 0.6634
+2026-08-23 04:35:43 | INFO     | reporting |   Weighted Recall    : 0.6223
+2026-08-23 04:35:43 | INFO     | reporting |   Weighted F1        : 0.6363
+2026-08-23 04:35:43 | INFO     | reporting |   MAE                : 0.4225
+2026-08-23 04:35:43 | INFO     | reporting |   QWK                : 0.8118
+2026-08-23 04:35:43 | INFO     | reporting |   ------------------------------------------------
+2026-08-23 04:35:43 | INFO     | reporting | TEST
+2026-08-23 04:35:43 | INFO     | reporting |   Accuracy           : 0.6570
+2026-08-23 04:35:43 | INFO     | reporting |   Macro Precision    : 0.6706
+2026-08-23 04:35:43 | INFO     | reporting |   Macro Recall       : 0.6949
+2026-08-23 04:35:43 | INFO     | reporting |   Macro F1           : 0.6798
+2026-08-23 04:35:43 | INFO     | reporting |   Weighted Precision : 0.6775
+2026-08-23 04:35:43 | INFO     | reporting |   Weighted Recall    : 0.6570
+2026-08-23 04:35:43 | INFO     | reporting |   Weighted F1        : 0.6646
+2026-08-23 04:35:43 | INFO     | reporting |   MAE                : 0.3786
+2026-08-23 04:35:43 | INFO     | reporting |   QWK                : 0.8403
+2026-08-23 04:35:43 | INFO     | reporting | ====================================================
+2026-08-23 04:35:43 | INFO     | reporting | Ablation summary updated → results/ablation_summary.csv
