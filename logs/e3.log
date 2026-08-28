@@ -1,0 +1,270 @@
+2026-08-27 16:45:58 | INFO     | utils | Logging to logs\e3.log
+2026-08-27 16:45:58 | INFO     | __main__ |   CoRD-Net — E2 + Dual-Intensity Stem
+2026-08-27 16:45:58 | INFO     | __main__ |   Experiment  : E3
+2026-08-27 16:45:58 | INFO     | __main__ |   Device      : cuda
+2026-08-27 16:45:58 | INFO     | __main__ |   Epochs      : 60
+2026-08-27 16:45:58 | INFO     | __main__ |   Batch size  : 16
+2026-08-27 16:45:58 | INFO     | __main__ |   Data root   : Dataset
+2026-08-27 16:45:58 | INFO     | __main__ |   Pretrained  : True
+2026-08-27 16:45:58 | INFO     | __main__ |   Results dir : results/e3_standard
+2026-08-27 16:45:58 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 16:45:58 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 16:45:58 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-27 16:45:58 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 16:45:58 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 16:46:46 | INFO     | trainer | epoch=1/60 | time=34.7s | lr=1.00e-04 | train/kl=1.2281 | train/total=1.2281 | train/accuracy=0.5339 | val/kl=1.0506 | val/total=1.0506 | val/accuracy=0.6441 | val/kappa=0.7460 | val/mae=0.4879 | val/macro_f1=0.5826
+2026-08-27 16:47:33 | INFO     | trainer | epoch=2/60 | time=34.7s | lr=9.99e-05 | train/kl=1.0754 | train/total=1.0754 | train/accuracy=0.6215 | val/kl=1.0600 | val/total=1.0600 | val/accuracy=0.6392 | val/kappa=0.7447 | val/mae=0.4952 | val/macro_f1=0.5903
+2026-08-27 16:48:20 | INFO     | trainer | epoch=3/60 | time=34.5s | lr=9.97e-05 | train/kl=1.0442 | train/total=1.0442 | train/accuracy=0.6397 | val/kl=1.0147 | val/total=1.0147 | val/accuracy=0.6477 | val/kappa=0.7655 | val/mae=0.4746 | val/macro_f1=0.5859
+2026-08-27 16:49:07 | INFO     | trainer | epoch=4/60 | time=34.7s | lr=9.94e-05 | train/kl=1.0771 | train/total=1.0771 | train/accuracy=0.6193 | val/kl=1.1307 | val/total=1.1307 | val/accuracy=0.5811 | val/kappa=0.6574 | val/mae=0.5835 | val/macro_f1=0.5560
+2026-08-27 16:49:53 | INFO     | trainer | epoch=5/60 | time=34.6s | lr=9.89e-05 | train/kl=1.1190 | train/total=1.1190 | train/accuracy=0.6002 | val/kl=1.0593 | val/total=1.0593 | val/accuracy=0.6271 | val/kappa=0.7288 | val/mae=0.5194 | val/macro_f1=0.6036
+2026-08-27 16:50:40 | INFO     | trainer | epoch=6/60 | time=34.6s | lr=9.83e-05 | train/kl=1.0712 | train/total=1.0712 | train/accuracy=0.6215 | val/kl=1.1032 | val/total=1.1032 | val/accuracy=0.6102 | val/kappa=0.6877 | val/mae=0.5557 | val/macro_f1=0.5604
+2026-08-27 16:51:27 | INFO     | trainer | epoch=7/60 | time=34.6s | lr=9.76e-05 | train/kl=1.0498 | train/total=1.0498 | train/accuracy=0.6328 | val/kl=1.0484 | val/total=1.0484 | val/accuracy=0.6380 | val/kappa=0.7469 | val/mae=0.4722 | val/macro_f1=0.6602
+2026-08-27 16:52:14 | INFO     | trainer | epoch=8/60 | time=34.4s | lr=9.67e-05 | train/kl=1.0064 | train/total=1.0064 | train/accuracy=0.6589 | val/kl=0.9903 | val/total=0.9903 | val/accuracy=0.6634 | val/kappa=0.7611 | val/mae=0.4576 | val/macro_f1=0.6286
+2026-08-27 16:53:00 | INFO     | trainer | epoch=9/60 | time=34.6s | lr=9.57e-05 | train/kl=0.9888 | train/total=0.9888 | train/accuracy=0.6690 | val/kl=1.0331 | val/total=1.0331 | val/accuracy=0.6441 | val/kappa=0.7619 | val/mae=0.4661 | val/macro_f1=0.6409
+2026-08-27 16:53:47 | INFO     | trainer | epoch=10/60 | time=34.5s | lr=9.46e-05 | train/kl=1.0147 | train/total=1.0147 | train/accuracy=0.6498 | val/kl=0.9920 | val/total=0.9920 | val/accuracy=0.6671 | val/kappa=0.7883 | val/mae=0.4189 | val/macro_f1=0.6802
+2026-08-27 16:54:35 | INFO     | trainer | epoch=11/60 | time=34.6s | lr=9.33e-05 | train/kl=0.9981 | train/total=0.9981 | train/accuracy=0.6607 | val/kl=0.9962 | val/total=0.9962 | val/accuracy=0.6429 | val/kappa=0.7787 | val/mae=0.4443 | val/macro_f1=0.6655
+2026-08-27 16:55:21 | INFO     | trainer | epoch=12/60 | time=34.4s | lr=9.19e-05 | train/kl=0.9790 | train/total=0.9790 | train/accuracy=0.6671 | val/kl=1.0080 | val/total=1.0080 | val/accuracy=0.6513 | val/kappa=0.7780 | val/mae=0.4467 | val/macro_f1=0.6547
+2026-08-27 16:56:08 | INFO     | trainer | epoch=13/60 | time=34.5s | lr=9.05e-05 | train/kl=0.9596 | train/total=0.9596 | train/accuracy=0.6771 | val/kl=1.0136 | val/total=1.0136 | val/accuracy=0.6441 | val/kappa=0.7991 | val/mae=0.4201 | val/macro_f1=0.6613
+2026-08-27 16:56:55 | INFO     | trainer | epoch=14/60 | time=34.5s | lr=8.89e-05 | train/kl=0.9581 | train/total=0.9581 | train/accuracy=0.6868 | val/kl=0.9978 | val/total=0.9978 | val/accuracy=0.6828 | val/kappa=0.8019 | val/mae=0.4031 | val/macro_f1=0.6764
+2026-08-27 16:57:42 | INFO     | trainer | epoch=15/60 | time=34.4s | lr=8.72e-05 | train/kl=0.9261 | train/total=0.9261 | train/accuracy=0.7052 | val/kl=1.0017 | val/total=1.0017 | val/accuracy=0.6586 | val/kappa=0.7843 | val/mae=0.4358 | val/macro_f1=0.6593
+2026-08-27 16:58:29 | INFO     | trainer | epoch=16/60 | time=34.6s | lr=8.54e-05 | train/kl=0.9202 | train/total=0.9202 | train/accuracy=0.7091 | val/kl=1.0180 | val/total=1.0180 | val/accuracy=0.6453 | val/kappa=0.7656 | val/mae=0.4479 | val/macro_f1=0.6749
+2026-08-27 16:59:15 | INFO     | trainer | epoch=17/60 | time=34.4s | lr=8.35e-05 | train/kl=1.0082 | train/total=1.0082 | train/accuracy=0.6544 | val/kl=1.1680 | val/total=1.1680 | val/accuracy=0.5714 | val/kappa=0.6553 | val/mae=0.5969 | val/macro_f1=0.4965
+2026-08-27 17:00:02 | INFO     | trainer | epoch=18/60 | time=34.6s | lr=8.15e-05 | train/kl=1.0009 | train/total=1.0009 | train/accuracy=0.6626 | val/kl=1.0568 | val/total=1.0568 | val/accuracy=0.6562 | val/kappa=0.7721 | val/mae=0.4492 | val/macro_f1=0.6356
+2026-08-27 17:00:49 | INFO     | trainer | epoch=19/60 | time=34.6s | lr=7.94e-05 | train/kl=0.8802 | train/total=0.8802 | train/accuracy=0.7334 | val/kl=1.0185 | val/total=1.0185 | val/accuracy=0.6586 | val/kappa=0.7917 | val/mae=0.4286 | val/macro_f1=0.6722
+2026-08-27 17:01:36 | INFO     | trainer | epoch=20/60 | time=34.6s | lr=7.72e-05 | train/kl=0.8753 | train/total=0.8753 | train/accuracy=0.7329 | val/kl=1.0542 | val/total=1.0542 | val/accuracy=0.6453 | val/kappa=0.7698 | val/mae=0.4576 | val/macro_f1=0.6283
+2026-08-27 17:02:23 | INFO     | trainer | epoch=21/60 | time=34.7s | lr=7.50e-05 | train/kl=0.8523 | train/total=0.8523 | train/accuracy=0.7476 | val/kl=1.0531 | val/total=1.0531 | val/accuracy=0.6501 | val/kappa=0.7510 | val/mae=0.4709 | val/macro_f1=0.6330
+2026-08-27 17:03:10 | INFO     | trainer | epoch=22/60 | time=34.6s | lr=7.27e-05 | train/kl=0.8673 | train/total=0.8673 | train/accuracy=0.7412 | val/kl=1.0317 | val/total=1.0317 | val/accuracy=0.6453 | val/kappa=0.7888 | val/mae=0.4370 | val/macro_f1=0.6622
+2026-08-27 17:03:56 | INFO     | trainer | epoch=23/60 | time=34.7s | lr=7.03e-05 | train/kl=0.8371 | train/total=0.8371 | train/accuracy=0.7562 | val/kl=1.0381 | val/total=1.0381 | val/accuracy=0.6840 | val/kappa=0.7976 | val/mae=0.4104 | val/macro_f1=0.6726
+2026-08-27 17:04:43 | INFO     | trainer | epoch=24/60 | time=34.6s | lr=6.79e-05 | train/kl=0.8402 | train/total=0.8402 | train/accuracy=0.7543 | val/kl=1.3373 | val/total=1.3373 | val/accuracy=0.4746 | val/kappa=0.4209 | val/mae=0.8717 | val/macro_f1=0.3570
+2026-08-27 17:04:43 | INFO     | trainer | Early stopping triggered at epoch 24 (no val QWK improvement for 10 epochs).
+2026-08-27 17:04:43 | INFO     | trainer | Training complete. Generating reports …
+2026-08-27 17:04:44 | INFO     | reporting | Results directory: results\e3_standard\e3
+2026-08-27 17:04:44 | INFO     | trainer | Collecting val logits …
+2026-08-27 17:04:56 | INFO     | trainer | Collecting train logits …
+2026-08-27 17:05:18 | INFO     | trainer | Collecting test logits …
+2026-08-27 17:05:32 | INFO     | reporting | Generating reports for experiment 'e3' …
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\val_confusion_matrix.png
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\val_confusion_matrix.csv
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\test_confusion_matrix.png
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\test_confusion_matrix.csv
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\classification_report_val.txt
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\classification_report_test.txt
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\predictions.csv
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\metrics.json
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\metrics.csv
+2026-08-27 17:05:32 | INFO     | reporting | Saved results\e3_standard\e3\plots\loss_curve.png
+2026-08-27 17:05:33 | INFO     | reporting | Saved results\e3_standard\e3\plots\accuracy_curve.png
+2026-08-27 17:05:33 | INFO     | reporting | Saved results\e3_standard\e3\plots\loss_vs_accuracy.png
+2026-08-27 17:05:33 | INFO     | reporting | Saved results\e3_standard\e3\plots\f1_curve.png
+2026-08-27 17:05:33 | INFO     | reporting | Saved results\e3_standard\e3\plots\qwk_curve.png
+2026-08-27 17:05:34 | INFO     | reporting | Saved results\e3_standard\e3\plots\mae_curve.png
+2026-08-27 17:05:34 | INFO     | reporting | Saved results\e3_standard\e3\plots\learning_rate_curve.png
+2026-08-27 17:05:34 | INFO     | reporting | ====================================================
+2026-08-27 17:05:34 | INFO     | reporting |   FINAL RESULTS
+2026-08-27 17:05:34 | INFO     | reporting | ====================================================
+2026-08-27 17:05:34 | INFO     | reporting | TRAIN
+2026-08-27 17:05:34 | INFO     | reporting |   Accuracy           : 0.6728
+2026-08-27 17:05:34 | INFO     | reporting |   Macro Precision    : 0.7066
+2026-08-27 17:05:34 | INFO     | reporting |   Macro Recall       : 0.6128
+2026-08-27 17:05:34 | INFO     | reporting |   Macro F1           : 0.6343
+2026-08-27 17:05:34 | INFO     | reporting |   Weighted Precision : 0.6773
+2026-08-27 17:05:34 | INFO     | reporting |   Weighted Recall    : 0.6728
+2026-08-27 17:05:34 | INFO     | reporting |   Weighted F1        : 0.6490
+2026-08-27 17:05:34 | INFO     | reporting |   MAE                : 0.4874
+2026-08-27 17:05:34 | INFO     | reporting |   QWK                : 0.6961
+2026-08-27 17:05:34 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:05:34 | INFO     | reporting | VALIDATION
+2026-08-27 17:05:34 | INFO     | reporting |   Accuracy           : 0.4746
+2026-08-27 17:05:34 | INFO     | reporting |   Macro Precision    : 0.4195
+2026-08-27 17:05:34 | INFO     | reporting |   Macro Recall       : 0.3628
+2026-08-27 17:05:34 | INFO     | reporting |   Macro F1           : 0.3570
+2026-08-27 17:05:34 | INFO     | reporting |   Weighted Precision : 0.4357
+2026-08-27 17:05:34 | INFO     | reporting |   Weighted Recall    : 0.4746
+2026-08-27 17:05:34 | INFO     | reporting |   Weighted F1        : 0.4154
+2026-08-27 17:05:34 | INFO     | reporting |   MAE                : 0.8717
+2026-08-27 17:05:34 | INFO     | reporting |   QWK                : 0.4209
+2026-08-27 17:05:34 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:05:34 | INFO     | reporting | TEST
+2026-08-27 17:05:34 | INFO     | reporting |   Accuracy           : 0.5018
+2026-08-27 17:05:34 | INFO     | reporting |   Macro Precision    : 0.4728
+2026-08-27 17:05:34 | INFO     | reporting |   Macro Recall       : 0.3722
+2026-08-27 17:05:34 | INFO     | reporting |   Macro F1           : 0.3759
+2026-08-27 17:05:34 | INFO     | reporting |   Weighted Precision : 0.4808
+2026-08-27 17:05:34 | INFO     | reporting |   Weighted Recall    : 0.5018
+2026-08-27 17:05:34 | INFO     | reporting |   Weighted F1        : 0.4441
+2026-08-27 17:05:34 | INFO     | reporting |   MAE                : 0.8255
+2026-08-27 17:05:34 | INFO     | reporting |   QWK                : 0.4426
+2026-08-27 17:05:34 | INFO     | reporting | ====================================================
+2026-08-27 17:16:20 | INFO     | utils | Logging to logs\e3.log
+2026-08-27 17:16:20 | INFO     | __main__ |   CoRD-Net — E2 + Dual-Intensity Stem
+2026-08-27 17:16:20 | INFO     | __main__ |   Experiment  : E3
+2026-08-27 17:16:20 | INFO     | __main__ |   Device      : cuda
+2026-08-27 17:16:20 | INFO     | __main__ |   Epochs      : 60
+2026-08-27 17:16:20 | INFO     | __main__ |   Batch size  : 16
+2026-08-27 17:16:20 | INFO     | __main__ |   Data root   : Dataset
+2026-08-27 17:16:20 | INFO     | __main__ |   Pretrained  : True
+2026-08-27 17:16:20 | INFO     | __main__ |   Results dir : results/e3_mild_aug
+2026-08-27 17:16:20 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 17:16:20 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 17:16:20 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-27 17:16:20 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 17:16:20 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 17:17:08 | INFO     | trainer | epoch=1/60 | time=34.7s | lr=1.00e-04 | train/kl=1.2745 | train/total=1.2745 | train/accuracy=0.5002 | val/kl=1.1343 | val/total=1.1343 | val/accuracy=0.5932 | val/kappa=0.6984 | val/mae=0.5872 | val/macro_f1=0.5202
+2026-08-27 17:17:54 | INFO     | trainer | epoch=2/60 | time=34.7s | lr=9.99e-05 | train/kl=1.1646 | train/total=1.1646 | train/accuracy=0.5689 | val/kl=1.1700 | val/total=1.1700 | val/accuracy=0.5835 | val/kappa=0.6563 | val/mae=0.6114 | val/macro_f1=0.4914
+2026-08-27 17:18:41 | INFO     | trainer | epoch=3/60 | time=34.6s | lr=9.97e-05 | train/kl=1.1040 | train/total=1.1040 | train/accuracy=0.6054 | val/kl=1.0955 | val/total=1.0955 | val/accuracy=0.5993 | val/kappa=0.6779 | val/mae=0.5799 | val/macro_f1=0.5343
+2026-08-27 17:19:28 | INFO     | trainer | epoch=4/60 | time=34.6s | lr=9.94e-05 | train/kl=1.2432 | train/total=1.2432 | train/accuracy=0.5187 | val/kl=1.4063 | val/total=1.4063 | val/accuracy=0.4346 | val/kappa=0.1490 | val/mae=1.0775 | val/macro_f1=0.2201
+2026-08-27 17:20:15 | INFO     | trainer | epoch=5/60 | time=34.5s | lr=9.89e-05 | train/kl=1.4449 | train/total=1.4449 | train/accuracy=0.4022 | val/kl=1.4606 | val/total=1.4606 | val/accuracy=0.3971 | val/kappa=0.0000 | val/mae=1.2143 | val/macro_f1=0.1137
+2026-08-27 17:21:02 | INFO     | trainer | epoch=6/60 | time=34.7s | lr=9.83e-05 | train/kl=1.4474 | train/total=1.4474 | train/accuracy=0.3956 | val/kl=1.4593 | val/total=1.4593 | val/accuracy=0.3971 | val/kappa=0.0000 | val/mae=1.2143 | val/macro_f1=0.1137
+2026-08-27 17:21:48 | INFO     | trainer | epoch=7/60 | time=34.5s | lr=9.76e-05 | train/kl=1.4474 | train/total=1.4474 | train/accuracy=0.3954 | val/kl=1.4583 | val/total=1.4583 | val/accuracy=0.3971 | val/kappa=0.0000 | val/mae=1.2143 | val/macro_f1=0.1137
+2026-08-27 17:22:35 | INFO     | trainer | epoch=8/60 | time=34.5s | lr=9.67e-05 | train/kl=1.4463 | train/total=1.4463 | train/accuracy=0.3958 | val/kl=1.4575 | val/total=1.4575 | val/accuracy=0.3971 | val/kappa=0.0000 | val/mae=1.2143 | val/macro_f1=0.1137
+2026-08-27 17:23:22 | INFO     | trainer | epoch=9/60 | time=34.5s | lr=9.57e-05 | train/kl=1.4462 | train/total=1.4462 | train/accuracy=0.3958 | val/kl=1.4566 | val/total=1.4566 | val/accuracy=0.3971 | val/kappa=0.0000 | val/mae=1.2143 | val/macro_f1=0.1137
+2026-08-27 17:24:08 | INFO     | trainer | epoch=10/60 | time=34.2s | lr=9.46e-05 | train/kl=1.4435 | train/total=1.4435 | train/accuracy=0.3968 | val/kl=1.4581 | val/total=1.4581 | val/accuracy=0.3971 | val/kappa=0.0000 | val/mae=1.2143 | val/macro_f1=0.1137
+2026-08-27 17:24:55 | INFO     | trainer | epoch=11/60 | time=34.6s | lr=9.33e-05 | train/kl=1.4393 | train/total=1.4393 | train/accuracy=0.3994 | val/kl=1.4435 | val/total=1.4435 | val/accuracy=0.4213 | val/kappa=0.1457 | val/mae=1.0787 | val/macro_f1=0.1709
+2026-08-27 17:24:55 | INFO     | trainer | Early stopping triggered at epoch 11 (no val QWK improvement for 10 epochs).
+2026-08-27 17:24:55 | INFO     | trainer | Training complete. Generating reports …
+2026-08-27 17:24:56 | INFO     | reporting | Results directory: results\e3_mild_aug\e3
+2026-08-27 17:24:56 | INFO     | trainer | Collecting val logits …
+2026-08-27 17:25:08 | INFO     | trainer | Collecting train logits …
+2026-08-27 17:25:30 | INFO     | trainer | Collecting test logits …
+2026-08-27 17:25:44 | INFO     | reporting | Generating reports for experiment 'e3' …
+2026-08-27 17:25:44 | INFO     | reporting | Saved results\e3_mild_aug\e3\val_confusion_matrix.png
+2026-08-27 17:25:44 | INFO     | reporting | Saved results\e3_mild_aug\e3\val_confusion_matrix.csv
+2026-08-27 17:25:44 | INFO     | reporting | Saved results\e3_mild_aug\e3\test_confusion_matrix.png
+2026-08-27 17:25:44 | INFO     | reporting | Saved results\e3_mild_aug\e3\test_confusion_matrix.csv
+2026-08-27 17:25:44 | INFO     | reporting | Saved results\e3_mild_aug\e3\classification_report_val.txt
+2026-08-27 17:25:45 | INFO     | reporting | Saved results\e3_mild_aug\e3\classification_report_test.txt
+2026-08-27 17:25:45 | INFO     | reporting | Saved results\e3_mild_aug\e3\predictions.csv
+2026-08-27 17:25:45 | INFO     | reporting | Saved results\e3_mild_aug\e3\metrics.json
+2026-08-27 17:25:45 | INFO     | reporting | Saved results\e3_mild_aug\e3\metrics.csv
+2026-08-27 17:25:45 | INFO     | reporting | Saved results\e3_mild_aug\e3\plots\loss_curve.png
+2026-08-27 17:25:45 | INFO     | reporting | Saved results\e3_mild_aug\e3\plots\accuracy_curve.png
+2026-08-27 17:25:45 | INFO     | reporting | Saved results\e3_mild_aug\e3\plots\loss_vs_accuracy.png
+2026-08-27 17:25:45 | INFO     | reporting | Saved results\e3_mild_aug\e3\plots\f1_curve.png
+2026-08-27 17:25:46 | INFO     | reporting | Saved results\e3_mild_aug\e3\plots\qwk_curve.png
+2026-08-27 17:25:46 | INFO     | reporting | Saved results\e3_mild_aug\e3\plots\mae_curve.png
+2026-08-27 17:25:46 | INFO     | reporting | Saved results\e3_mild_aug\e3\plots\learning_rate_curve.png
+2026-08-27 17:25:46 | INFO     | reporting | ====================================================
+2026-08-27 17:25:46 | INFO     | reporting |   FINAL RESULTS
+2026-08-27 17:25:46 | INFO     | reporting | ====================================================
+2026-08-27 17:25:46 | INFO     | reporting | TRAIN
+2026-08-27 17:25:46 | INFO     | reporting |   Accuracy           : 0.4197
+2026-08-27 17:25:46 | INFO     | reporting |   Macro Precision    : 0.1580
+2026-08-27 17:25:46 | INFO     | reporting |   Macro Recall       : 0.2262
+2026-08-27 17:25:46 | INFO     | reporting |   Macro F1           : 0.1703
+2026-08-27 17:25:46 | INFO     | reporting |   Weighted Precision : 0.2647
+2026-08-27 17:25:46 | INFO     | reporting |   Weighted Recall    : 0.4197
+2026-08-27 17:25:46 | INFO     | reporting |   Weighted F1        : 0.3017
+2026-08-27 17:25:46 | INFO     | reporting |   MAE                : 1.0717
+2026-08-27 17:25:46 | INFO     | reporting |   QWK                : 0.1439
+2026-08-27 17:25:46 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:25:46 | INFO     | reporting | VALIDATION
+2026-08-27 17:25:46 | INFO     | reporting |   Accuracy           : 0.4213
+2026-08-27 17:25:46 | INFO     | reporting |   Macro Precision    : 0.1620
+2026-08-27 17:25:46 | INFO     | reporting |   Macro Recall       : 0.2269
+2026-08-27 17:25:46 | INFO     | reporting |   Macro F1           : 0.1709
+2026-08-27 17:25:46 | INFO     | reporting |   Weighted Precision : 0.2680
+2026-08-27 17:25:46 | INFO     | reporting |   Weighted Recall    : 0.4213
+2026-08-27 17:25:46 | INFO     | reporting |   Weighted F1        : 0.3014
+2026-08-27 17:25:46 | INFO     | reporting |   MAE                : 1.0787
+2026-08-27 17:25:46 | INFO     | reporting |   QWK                : 0.1457
+2026-08-27 17:25:46 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:25:46 | INFO     | reporting | TEST
+2026-08-27 17:25:46 | INFO     | reporting |   Accuracy           : 0.3961
+2026-08-27 17:25:46 | INFO     | reporting |   Macro Precision    : 0.1458
+2026-08-27 17:25:46 | INFO     | reporting |   Macro Recall       : 0.2145
+2026-08-27 17:25:46 | INFO     | reporting |   Macro F1           : 0.1542
+2026-08-27 17:25:46 | INFO     | reporting |   Weighted Precision : 0.2440
+2026-08-27 17:25:46 | INFO     | reporting |   Weighted Recall    : 0.3961
+2026-08-27 17:25:46 | INFO     | reporting |   Weighted F1        : 0.2735
+2026-08-27 17:25:46 | INFO     | reporting |   MAE                : 1.1419
+2026-08-27 17:25:46 | INFO     | reporting |   QWK                : 0.1014
+2026-08-27 17:25:46 | INFO     | reporting | ====================================================
+2026-08-27 17:26:48 | INFO     | utils | Logging to logs\e3.log
+2026-08-27 17:26:48 | INFO     | __main__ |   CoRD-Net — E2 + Dual-Intensity Stem
+2026-08-27 17:26:48 | INFO     | __main__ |   Experiment  : E3
+2026-08-27 17:26:48 | INFO     | __main__ |   Device      : cuda
+2026-08-27 17:26:48 | INFO     | __main__ |   Epochs      : 60
+2026-08-27 17:26:48 | INFO     | __main__ |   Batch size  : 16
+2026-08-27 17:26:48 | INFO     | __main__ |   Data root   : Dataset
+2026-08-27 17:26:48 | INFO     | __main__ |   Pretrained  : True
+2026-08-27 17:26:48 | INFO     | __main__ |   Results dir : results/e3_no_aug
+2026-08-27 17:26:48 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 17:26:48 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 17:26:48 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-27 17:26:48 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 17:26:48 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 17:27:36 | INFO     | trainer | epoch=1/60 | time=34.7s | lr=1.00e-04 | train/kl=1.2051 | train/total=1.2051 | train/accuracy=0.5481 | val/kl=1.0987 | val/total=1.0987 | val/accuracy=0.6053 | val/kappa=0.7105 | val/mae=0.5387 | val/macro_f1=0.5921
+2026-08-27 17:28:23 | INFO     | trainer | epoch=2/60 | time=34.6s | lr=9.99e-05 | train/kl=1.0603 | train/total=1.0603 | train/accuracy=0.6279 | val/kl=1.0481 | val/total=1.0481 | val/accuracy=0.6441 | val/kappa=0.7637 | val/mae=0.4697 | val/macro_f1=0.5448
+2026-08-27 17:29:10 | INFO     | trainer | epoch=3/60 | time=34.6s | lr=9.97e-05 | train/kl=1.0587 | train/total=1.0587 | train/accuracy=0.6295 | val/kl=1.0617 | val/total=1.0617 | val/accuracy=0.6332 | val/kappa=0.6921 | val/mae=0.5351 | val/macro_f1=0.6001
+2026-08-27 17:29:56 | INFO     | trainer | epoch=4/60 | time=34.6s | lr=9.94e-05 | train/kl=1.0327 | train/total=1.0327 | train/accuracy=0.6428 | val/kl=1.0258 | val/total=1.0258 | val/accuracy=0.6380 | val/kappa=0.7533 | val/mae=0.4770 | val/macro_f1=0.6472
+2026-08-27 17:30:43 | INFO     | trainer | epoch=5/60 | time=34.6s | lr=9.89e-05 | train/kl=1.0004 | train/total=1.0004 | train/accuracy=0.6633 | val/kl=1.0463 | val/total=1.0463 | val/accuracy=0.6114 | val/kappa=0.7407 | val/mae=0.5073 | val/macro_f1=0.5911
+2026-08-27 17:31:30 | INFO     | trainer | epoch=6/60 | time=34.2s | lr=9.83e-05 | train/kl=0.9836 | train/total=0.9836 | train/accuracy=0.6705 | val/kl=1.0256 | val/total=1.0256 | val/accuracy=0.6598 | val/kappa=0.7668 | val/mae=0.4552 | val/macro_f1=0.6347
+2026-08-27 17:32:17 | INFO     | trainer | epoch=7/60 | time=34.5s | lr=9.76e-05 | train/kl=0.9536 | train/total=0.9536 | train/accuracy=0.6861 | val/kl=1.0694 | val/total=1.0694 | val/accuracy=0.6150 | val/kappa=0.7359 | val/mae=0.5000 | val/macro_f1=0.6358
+2026-08-27 17:33:03 | INFO     | trainer | epoch=8/60 | time=34.4s | lr=9.67e-05 | train/kl=1.1074 | train/total=1.1074 | train/accuracy=0.5980 | val/kl=1.3083 | val/total=1.3083 | val/accuracy=0.4867 | val/kappa=0.3079 | val/mae=0.8971 | val/macro_f1=0.3629
+2026-08-27 17:33:50 | INFO     | trainer | epoch=9/60 | time=34.6s | lr=9.57e-05 | train/kl=1.0187 | train/total=1.0187 | train/accuracy=0.6517 | val/kl=1.0424 | val/total=1.0424 | val/accuracy=0.6283 | val/kappa=0.7568 | val/mae=0.4843 | val/macro_f1=0.6214
+2026-08-27 17:34:37 | INFO     | trainer | epoch=10/60 | time=34.5s | lr=9.46e-05 | train/kl=0.9512 | train/total=0.9512 | train/accuracy=0.6849 | val/kl=1.1366 | val/total=1.1366 | val/accuracy=0.6090 | val/kappa=0.5674 | val/mae=0.6114 | val/macro_f1=0.5682
+2026-08-27 17:35:24 | INFO     | trainer | epoch=11/60 | time=34.5s | lr=9.33e-05 | train/kl=0.9791 | train/total=0.9791 | train/accuracy=0.6743 | val/kl=1.1065 | val/total=1.1065 | val/accuracy=0.6235 | val/kappa=0.6424 | val/mae=0.5593 | val/macro_f1=0.5544
+2026-08-27 17:36:10 | INFO     | trainer | epoch=12/60 | time=34.1s | lr=9.19e-05 | train/kl=1.0380 | train/total=1.0380 | train/accuracy=0.6447 | val/kl=1.2162 | val/total=1.2162 | val/accuracy=0.5521 | val/kappa=0.5218 | val/mae=0.6973 | val/macro_f1=0.5276
+2026-08-27 17:36:57 | INFO     | trainer | epoch=13/60 | time=34.4s | lr=9.05e-05 | train/kl=1.1542 | train/total=1.1542 | train/accuracy=0.5701 | val/kl=1.3361 | val/total=1.3361 | val/accuracy=0.4879 | val/kappa=0.4036 | val/mae=0.8559 | val/macro_f1=0.4344
+2026-08-27 17:37:44 | INFO     | trainer | epoch=14/60 | time=34.5s | lr=8.89e-05 | train/kl=1.0869 | train/total=1.0869 | train/accuracy=0.6163 | val/kl=1.1769 | val/total=1.1769 | val/accuracy=0.5738 | val/kappa=0.5568 | val/mae=0.6671 | val/macro_f1=0.5115
+2026-08-27 17:38:30 | INFO     | trainer | epoch=15/60 | time=34.4s | lr=8.72e-05 | train/kl=0.9756 | train/total=0.9756 | train/accuracy=0.6776 | val/kl=1.0905 | val/total=1.0905 | val/accuracy=0.6186 | val/kappa=0.7258 | val/mae=0.5206 | val/macro_f1=0.5839
+2026-08-27 17:39:17 | INFO     | trainer | epoch=16/60 | time=34.5s | lr=8.54e-05 | train/kl=0.9071 | train/total=0.9071 | train/accuracy=0.7195 | val/kl=1.0785 | val/total=1.0785 | val/accuracy=0.6356 | val/kappa=0.7186 | val/mae=0.4927 | val/macro_f1=0.6040
+2026-08-27 17:39:17 | INFO     | trainer | Early stopping triggered at epoch 16 (no val QWK improvement for 10 epochs).
+2026-08-27 17:39:17 | INFO     | trainer | Training complete. Generating reports …
+2026-08-27 17:39:18 | INFO     | reporting | Results directory: results\e3_no_aug\e3
+2026-08-27 17:39:18 | INFO     | trainer | Collecting val logits …
+2026-08-27 17:39:30 | INFO     | trainer | Collecting train logits …
+2026-08-27 17:39:52 | INFO     | trainer | Collecting test logits …
+2026-08-27 17:40:05 | INFO     | reporting | Generating reports for experiment 'e3' …
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\val_confusion_matrix.png
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\val_confusion_matrix.csv
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\test_confusion_matrix.png
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\test_confusion_matrix.csv
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\classification_report_val.txt
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\classification_report_test.txt
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\predictions.csv
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\metrics.json
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\metrics.csv
+2026-08-27 17:40:06 | INFO     | reporting | Saved results\e3_no_aug\e3\plots\loss_curve.png
+2026-08-27 17:40:07 | INFO     | reporting | Saved results\e3_no_aug\e3\plots\accuracy_curve.png
+2026-08-27 17:40:07 | INFO     | reporting | Saved results\e3_no_aug\e3\plots\loss_vs_accuracy.png
+2026-08-27 17:40:07 | INFO     | reporting | Saved results\e3_no_aug\e3\plots\f1_curve.png
+2026-08-27 17:40:07 | INFO     | reporting | Saved results\e3_no_aug\e3\plots\qwk_curve.png
+2026-08-27 17:40:07 | INFO     | reporting | Saved results\e3_no_aug\e3\plots\mae_curve.png
+2026-08-27 17:40:08 | INFO     | reporting | Saved results\e3_no_aug\e3\plots\learning_rate_curve.png
+2026-08-27 17:40:08 | INFO     | reporting | ====================================================
+2026-08-27 17:40:08 | INFO     | reporting |   FINAL RESULTS
+2026-08-27 17:40:08 | INFO     | reporting | ====================================================
+2026-08-27 17:40:08 | INFO     | reporting | TRAIN
+2026-08-27 17:40:08 | INFO     | reporting |   Accuracy           : 0.7644
+2026-08-27 17:40:08 | INFO     | reporting |   Macro Precision    : 0.8172
+2026-08-27 17:40:08 | INFO     | reporting |   Macro Recall       : 0.7255
+2026-08-27 17:40:08 | INFO     | reporting |   Macro F1           : 0.7557
+2026-08-27 17:40:08 | INFO     | reporting |   Weighted Precision : 0.7660
+2026-08-27 17:40:08 | INFO     | reporting |   Weighted Recall    : 0.7644
+2026-08-27 17:40:08 | INFO     | reporting |   Weighted F1        : 0.7513
+2026-08-27 17:40:08 | INFO     | reporting |   MAE                : 0.3032
+2026-08-27 17:40:08 | INFO     | reporting |   QWK                : 0.8409
+2026-08-27 17:40:08 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:40:08 | INFO     | reporting | VALIDATION
+2026-08-27 17:40:08 | INFO     | reporting |   Accuracy           : 0.6356
+2026-08-27 17:40:08 | INFO     | reporting |   Macro Precision    : 0.6805
+2026-08-27 17:40:08 | INFO     | reporting |   Macro Recall       : 0.5718
+2026-08-27 17:40:08 | INFO     | reporting |   Macro F1           : 0.6040
+2026-08-27 17:40:08 | INFO     | reporting |   Weighted Precision : 0.6278
+2026-08-27 17:40:08 | INFO     | reporting |   Weighted Recall    : 0.6356
+2026-08-27 17:40:08 | INFO     | reporting |   Weighted F1        : 0.6191
+2026-08-27 17:40:08 | INFO     | reporting |   MAE                : 0.4927
+2026-08-27 17:40:08 | INFO     | reporting |   QWK                : 0.7186
+2026-08-27 17:40:08 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:40:08 | INFO     | reporting | TEST
+2026-08-27 17:40:08 | INFO     | reporting |   Accuracy           : 0.6274
+2026-08-27 17:40:08 | INFO     | reporting |   Macro Precision    : 0.6619
+2026-08-27 17:40:08 | INFO     | reporting |   Macro Recall       : 0.5870
+2026-08-27 17:40:08 | INFO     | reporting |   Macro F1           : 0.6128
+2026-08-27 17:40:08 | INFO     | reporting |   Weighted Precision : 0.6152
+2026-08-27 17:40:08 | INFO     | reporting |   Weighted Recall    : 0.6274
+2026-08-27 17:40:08 | INFO     | reporting |   Weighted F1        : 0.6122
+2026-08-27 17:40:08 | INFO     | reporting |   MAE                : 0.4897
+2026-08-27 17:40:08 | INFO     | reporting |   QWK                : 0.7375
+2026-08-27 17:40:08 | INFO     | reporting | ====================================================

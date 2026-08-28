@@ -1,0 +1,159 @@
+2026-08-27 17:06:03 | INFO     | utils | Logging to logs\eval_e3.log
+2026-08-27 17:06:04 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 17:06:04 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 17:06:04 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-27 17:06:04 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 17:06:04 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 17:06:04 | INFO     | __main__ | Collecting logits …
+2026-08-27 17:06:32 | INFO     | reporting | Results directory: results\e3
+2026-08-27 17:06:32 | INFO     | reporting | Generating reports for experiment 'e3' …
+2026-08-27 17:06:32 | INFO     | reporting | Saved results\e3\val_confusion_matrix.png
+2026-08-27 17:06:32 | INFO     | reporting | Saved results\e3\val_confusion_matrix.csv
+2026-08-27 17:06:33 | INFO     | reporting | Saved results\e3\test_confusion_matrix.png
+2026-08-27 17:06:33 | INFO     | reporting | Saved results\e3\test_confusion_matrix.csv
+2026-08-27 17:06:33 | INFO     | reporting | Saved results\e3\classification_report_val.txt
+2026-08-27 17:06:33 | INFO     | reporting | Saved results\e3\classification_report_test.txt
+2026-08-27 17:06:33 | INFO     | reporting | Saved results\e3\predictions.csv
+2026-08-27 17:06:33 | INFO     | reporting | Saved results\e3\metrics.json
+2026-08-27 17:06:33 | INFO     | reporting | Saved results\e3\metrics.csv
+2026-08-27 17:06:33 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-08-27 17:06:33 | INFO     | reporting | ====================================================
+2026-08-27 17:06:33 | INFO     | reporting |   FINAL RESULTS
+2026-08-27 17:06:33 | INFO     | reporting | ====================================================
+2026-08-27 17:06:33 | INFO     | reporting | TRAIN
+2026-08-27 17:06:33 | INFO     | reporting |   Accuracy           : nan
+2026-08-27 17:06:33 | INFO     | reporting |   Macro Precision    : nan
+2026-08-27 17:06:33 | INFO     | reporting |   Macro Recall       : nan
+2026-08-27 17:06:33 | INFO     | reporting |   Macro F1           : nan
+2026-08-27 17:06:33 | INFO     | reporting |   Weighted Precision : nan
+2026-08-27 17:06:33 | INFO     | reporting |   Weighted Recall    : nan
+2026-08-27 17:06:33 | INFO     | reporting |   Weighted F1        : nan
+2026-08-27 17:06:33 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:06:33 | INFO     | reporting | VALIDATION
+2026-08-27 17:06:33 | INFO     | reporting |   Accuracy           : 0.6828
+2026-08-27 17:06:33 | INFO     | reporting |   Macro Precision    : 0.7079
+2026-08-27 17:06:33 | INFO     | reporting |   Macro Recall       : 0.6672
+2026-08-27 17:06:33 | INFO     | reporting |   Macro F1           : 0.6764
+2026-08-27 17:06:33 | INFO     | reporting |   Weighted Precision : 0.6620
+2026-08-27 17:06:33 | INFO     | reporting |   Weighted Recall    : 0.6828
+2026-08-27 17:06:33 | INFO     | reporting |   Weighted F1        : 0.6595
+2026-08-27 17:06:33 | INFO     | reporting |   MAE                : 0.4031
+2026-08-27 17:06:33 | INFO     | reporting |   QWK                : 0.8019
+2026-08-27 17:06:33 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:06:33 | INFO     | reporting | TEST
+2026-08-27 17:06:33 | INFO     | reporting |   Accuracy           : 0.6709
+2026-08-27 17:06:33 | INFO     | reporting |   Macro Precision    : 0.6704
+2026-08-27 17:06:33 | INFO     | reporting |   Macro Recall       : 0.6557
+2026-08-27 17:06:33 | INFO     | reporting |   Macro F1           : 0.6530
+2026-08-27 17:06:33 | INFO     | reporting |   Weighted Precision : 0.6370
+2026-08-27 17:06:33 | INFO     | reporting |   Weighted Recall    : 0.6709
+2026-08-27 17:06:33 | INFO     | reporting |   Weighted F1        : 0.6408
+2026-08-27 17:06:33 | INFO     | reporting |   MAE                : 0.3973
+2026-08-27 17:06:33 | INFO     | reporting |   QWK                : 0.8209
+2026-08-27 17:06:33 | INFO     | reporting | ====================================================
+2026-08-27 17:26:15 | INFO     | utils | Logging to logs\eval_e3.log
+2026-08-27 17:26:16 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 17:26:16 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 17:26:16 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-27 17:26:16 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 17:26:16 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 17:26:16 | INFO     | __main__ | Collecting logits …
+2026-08-27 17:26:44 | INFO     | reporting | Results directory: results\e3
+2026-08-27 17:26:44 | INFO     | reporting | Generating reports for experiment 'e3' …
+2026-08-27 17:26:44 | INFO     | reporting | Saved results\e3\val_confusion_matrix.png
+2026-08-27 17:26:44 | INFO     | reporting | Saved results\e3\val_confusion_matrix.csv
+2026-08-27 17:26:44 | INFO     | reporting | Saved results\e3\test_confusion_matrix.png
+2026-08-27 17:26:44 | INFO     | reporting | Saved results\e3\test_confusion_matrix.csv
+2026-08-27 17:26:44 | INFO     | reporting | Saved results\e3\classification_report_val.txt
+2026-08-27 17:26:44 | INFO     | reporting | Saved results\e3\classification_report_test.txt
+2026-08-27 17:26:44 | INFO     | reporting | Saved results\e3\predictions.csv
+2026-08-27 17:26:44 | INFO     | reporting | Saved results\e3\metrics.json
+2026-08-27 17:26:44 | INFO     | reporting | Saved results\e3\metrics.csv
+2026-08-27 17:26:44 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-08-27 17:26:44 | INFO     | reporting | ====================================================
+2026-08-27 17:26:44 | INFO     | reporting |   FINAL RESULTS
+2026-08-27 17:26:44 | INFO     | reporting | ====================================================
+2026-08-27 17:26:44 | INFO     | reporting | TRAIN
+2026-08-27 17:26:44 | INFO     | reporting |   Accuracy           : nan
+2026-08-27 17:26:44 | INFO     | reporting |   Macro Precision    : nan
+2026-08-27 17:26:44 | INFO     | reporting |   Macro Recall       : nan
+2026-08-27 17:26:44 | INFO     | reporting |   Macro F1           : nan
+2026-08-27 17:26:44 | INFO     | reporting |   Weighted Precision : nan
+2026-08-27 17:26:44 | INFO     | reporting |   Weighted Recall    : nan
+2026-08-27 17:26:44 | INFO     | reporting |   Weighted F1        : nan
+2026-08-27 17:26:44 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:26:44 | INFO     | reporting | VALIDATION
+2026-08-27 17:26:44 | INFO     | reporting |   Accuracy           : 0.5932
+2026-08-27 17:26:44 | INFO     | reporting |   Macro Precision    : 0.5692
+2026-08-27 17:26:44 | INFO     | reporting |   Macro Recall       : 0.5866
+2026-08-27 17:26:44 | INFO     | reporting |   Macro F1           : 0.5202
+2026-08-27 17:26:44 | INFO     | reporting |   Weighted Precision : 0.5752
+2026-08-27 17:26:44 | INFO     | reporting |   Weighted Recall    : 0.5932
+2026-08-27 17:26:44 | INFO     | reporting |   Weighted F1        : 0.5286
+2026-08-27 17:26:44 | INFO     | reporting |   MAE                : 0.5872
+2026-08-27 17:26:44 | INFO     | reporting |   QWK                : 0.6984
+2026-08-27 17:26:44 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 17:26:44 | INFO     | reporting | TEST
+2026-08-27 17:26:44 | INFO     | reporting |   Accuracy           : 0.5888
+2026-08-27 17:26:44 | INFO     | reporting |   Macro Precision    : 0.5019
+2026-08-27 17:26:44 | INFO     | reporting |   Macro Recall       : 0.5628
+2026-08-27 17:26:44 | INFO     | reporting |   Macro F1           : 0.4969
+2026-08-27 17:26:44 | INFO     | reporting |   Weighted Precision : 0.5231
+2026-08-27 17:26:44 | INFO     | reporting |   Weighted Recall    : 0.5888
+2026-08-27 17:26:44 | INFO     | reporting |   Weighted F1        : 0.5191
+2026-08-27 17:26:44 | INFO     | reporting |   MAE                : 0.5634
+2026-08-27 17:26:44 | INFO     | reporting |   QWK                : 0.7310
+2026-08-27 17:26:44 | INFO     | reporting | ====================================================
+2026-08-28 13:28:23 | INFO     | utils | Logging to logs\eval_e3.log
+2026-08-28 13:28:26 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-28 13:28:26 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-28 13:28:26 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-28 13:28:26 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-28 13:28:26 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-28 13:28:26 | INFO     | __main__ | Collecting logits …
+2026-08-28 13:28:53 | INFO     | reporting | Results directory: results\e3
+2026-08-28 13:28:53 | INFO     | reporting | Generating reports for experiment 'e3' …
+2026-08-28 13:28:54 | INFO     | reporting | Saved results\e3\val_confusion_matrix.png
+2026-08-28 13:28:54 | INFO     | reporting | Saved results\e3\val_confusion_matrix.csv
+2026-08-28 13:28:54 | INFO     | reporting | Saved results\e3\test_confusion_matrix.png
+2026-08-28 13:28:54 | INFO     | reporting | Saved results\e3\test_confusion_matrix.csv
+2026-08-28 13:28:54 | INFO     | reporting | Saved results\e3\classification_report_val.txt
+2026-08-28 13:28:54 | INFO     | reporting | Saved results\e3\classification_report_test.txt
+2026-08-28 13:28:54 | INFO     | reporting | Saved results\e3\predictions.csv
+2026-08-28 13:28:54 | INFO     | reporting | Saved results\e3\metrics.json
+2026-08-28 13:28:54 | INFO     | reporting | Saved results\e3\metrics.csv
+2026-08-28 13:28:54 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-08-28 13:28:54 | INFO     | reporting | ====================================================
+2026-08-28 13:28:54 | INFO     | reporting |   FINAL RESULTS
+2026-08-28 13:28:54 | INFO     | reporting | ====================================================
+2026-08-28 13:28:54 | INFO     | reporting | TRAIN
+2026-08-28 13:28:54 | INFO     | reporting |   Accuracy           : nan
+2026-08-28 13:28:54 | INFO     | reporting |   Macro Precision    : nan
+2026-08-28 13:28:54 | INFO     | reporting |   Macro Recall       : nan
+2026-08-28 13:28:54 | INFO     | reporting |   Macro F1           : nan
+2026-08-28 13:28:54 | INFO     | reporting |   Weighted Precision : nan
+2026-08-28 13:28:54 | INFO     | reporting |   Weighted Recall    : nan
+2026-08-28 13:28:54 | INFO     | reporting |   Weighted F1        : nan
+2026-08-28 13:28:54 | INFO     | reporting |   ------------------------------------------------
+2026-08-28 13:28:54 | INFO     | reporting | VALIDATION
+2026-08-28 13:28:54 | INFO     | reporting |   Accuracy           : 0.6598
+2026-08-28 13:28:54 | INFO     | reporting |   Macro Precision    : 0.6552
+2026-08-28 13:28:54 | INFO     | reporting |   Macro Recall       : 0.6599
+2026-08-28 13:28:54 | INFO     | reporting |   Macro F1           : 0.6347
+2026-08-28 13:28:54 | INFO     | reporting |   Weighted Precision : 0.6499
+2026-08-28 13:28:54 | INFO     | reporting |   Weighted Recall    : 0.6598
+2026-08-28 13:28:54 | INFO     | reporting |   Weighted F1        : 0.6346
+2026-08-28 13:28:54 | INFO     | reporting |   MAE                : 0.4552
+2026-08-28 13:28:54 | INFO     | reporting |   QWK                : 0.7668
+2026-08-28 13:28:54 | INFO     | reporting |   ------------------------------------------------
+2026-08-28 13:28:54 | INFO     | reporting | TEST
+2026-08-28 13:28:54 | INFO     | reporting |   Accuracy           : 0.6510
+2026-08-28 13:28:54 | INFO     | reporting |   Macro Precision    : 0.6358
+2026-08-28 13:28:54 | INFO     | reporting |   Macro Recall       : 0.6442
+2026-08-28 13:28:54 | INFO     | reporting |   Macro F1           : 0.6236
+2026-08-28 13:28:54 | INFO     | reporting |   Weighted Precision : 0.6260
+2026-08-28 13:28:54 | INFO     | reporting |   Weighted Recall    : 0.6510
+2026-08-28 13:28:54 | INFO     | reporting |   Weighted F1        : 0.6205
+2026-08-28 13:28:54 | INFO     | reporting |   MAE                : 0.4487
+2026-08-28 13:28:54 | INFO     | reporting |   QWK                : 0.7830
+2026-08-28 13:28:54 | INFO     | reporting | ====================================================

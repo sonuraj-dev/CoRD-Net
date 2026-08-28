@@ -1,0 +1,53 @@
+2026-08-27 16:17:07 | INFO     | utils | Logging to logs\eval_e1.log
+2026-08-27 16:17:10 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 16:17:10 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 16:17:10 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-27 16:17:10 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-27 16:17:10 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-27 16:17:10 | INFO     | __main__ | Collecting logits …
+2026-08-27 16:17:34 | INFO     | reporting | Results directory: results\e1
+2026-08-27 16:17:34 | INFO     | reporting | Generating reports for experiment 'e1' …
+2026-08-27 16:17:35 | INFO     | reporting | Saved results\e1\val_confusion_matrix.png
+2026-08-27 16:17:35 | INFO     | reporting | Saved results\e1\val_confusion_matrix.csv
+2026-08-27 16:17:35 | INFO     | reporting | Saved results\e1\test_confusion_matrix.png
+2026-08-27 16:17:35 | INFO     | reporting | Saved results\e1\test_confusion_matrix.csv
+2026-08-27 16:17:35 | INFO     | reporting | Saved results\e1\classification_report_val.txt
+2026-08-27 16:17:35 | INFO     | reporting | Saved results\e1\classification_report_test.txt
+2026-08-27 16:17:35 | INFO     | reporting | Saved results\e1\predictions.csv
+2026-08-27 16:17:35 | INFO     | reporting | Saved results\e1\metrics.json
+2026-08-27 16:17:35 | INFO     | reporting | Saved results\e1\metrics.csv
+2026-08-27 16:17:35 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-08-27 16:17:35 | INFO     | reporting | ====================================================
+2026-08-27 16:17:35 | INFO     | reporting |   FINAL RESULTS
+2026-08-27 16:17:35 | INFO     | reporting | ====================================================
+2026-08-27 16:17:35 | INFO     | reporting | TRAIN
+2026-08-27 16:17:35 | INFO     | reporting |   Accuracy           : nan
+2026-08-27 16:17:35 | INFO     | reporting |   Macro Precision    : nan
+2026-08-27 16:17:35 | INFO     | reporting |   Macro Recall       : nan
+2026-08-27 16:17:35 | INFO     | reporting |   Macro F1           : nan
+2026-08-27 16:17:35 | INFO     | reporting |   Weighted Precision : nan
+2026-08-27 16:17:35 | INFO     | reporting |   Weighted Recall    : nan
+2026-08-27 16:17:35 | INFO     | reporting |   Weighted F1        : nan
+2026-08-27 16:17:35 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 16:17:35 | INFO     | reporting | VALIDATION
+2026-08-27 16:17:35 | INFO     | reporting |   Accuracy           : 0.6646
+2026-08-27 16:17:35 | INFO     | reporting |   Macro Precision    : 0.6992
+2026-08-27 16:17:35 | INFO     | reporting |   Macro Recall       : 0.6458
+2026-08-27 16:17:35 | INFO     | reporting |   Macro F1           : 0.6660
+2026-08-27 16:17:35 | INFO     | reporting |   Weighted Precision : 0.6550
+2026-08-27 16:17:35 | INFO     | reporting |   Weighted Recall    : 0.6646
+2026-08-27 16:17:35 | INFO     | reporting |   Weighted F1        : 0.6572
+2026-08-27 16:17:35 | INFO     | reporting |   MAE                : 0.4044
+2026-08-27 16:17:35 | INFO     | reporting |   QWK                : 0.8073
+2026-08-27 16:17:35 | INFO     | reporting |   ------------------------------------------------
+2026-08-27 16:17:35 | INFO     | reporting | TEST
+2026-08-27 16:17:35 | INFO     | reporting |   Accuracy           : 0.6854
+2026-08-27 16:17:35 | INFO     | reporting |   Macro Precision    : 0.7071
+2026-08-27 16:17:35 | INFO     | reporting |   Macro Recall       : 0.6422
+2026-08-27 16:17:35 | INFO     | reporting |   Macro F1           : 0.6631
+2026-08-27 16:17:35 | INFO     | reporting |   Weighted Precision : 0.6724
+2026-08-27 16:17:35 | INFO     | reporting |   Weighted Recall    : 0.6854
+2026-08-27 16:17:35 | INFO     | reporting |   Weighted F1        : 0.6745
+2026-08-27 16:17:35 | INFO     | reporting |   MAE                : 0.3696
+2026-08-27 16:17:35 | INFO     | reporting |   QWK                : 0.8313
+2026-08-27 16:17:35 | INFO     | reporting | ====================================================
