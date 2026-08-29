@@ -1,0 +1,55 @@
+2026-08-29 13:04:44 | INFO     | utils | Logging to logs/eval_e4.log
+2026-08-29 13:04:46 | INFO     | utils | Checkpoint loaded ← checkpoints/e4_wce/e4_best.pt  (experiment=e4  epoch=2)
+2026-08-29 13:04:46 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-29 13:04:47 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-29 13:04:47 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-29 13:04:47 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-29 13:04:47 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-29 13:04:47 | INFO     | __main__ | Collecting logits …
+2026-08-29 13:05:28 | INFO     | reporting | Results directory: results/e4_wce/e4
+2026-08-29 13:05:28 | INFO     | reporting | Generating reports for experiment 'e4' …
+2026-08-29 13:05:28 | INFO     | reporting | Saved results/e4_wce/e4/val_confusion_matrix.png
+2026-08-29 13:05:28 | INFO     | reporting | Saved results/e4_wce/e4/val_confusion_matrix.csv
+2026-08-29 13:05:28 | INFO     | reporting | Saved results/e4_wce/e4/test_confusion_matrix.png
+2026-08-29 13:05:28 | INFO     | reporting | Saved results/e4_wce/e4/test_confusion_matrix.csv
+2026-08-29 13:05:28 | INFO     | reporting | Saved results/e4_wce/e4/classification_report_val.txt
+2026-08-29 13:05:28 | INFO     | reporting | Saved results/e4_wce/e4/classification_report_test.txt
+2026-08-29 13:05:28 | INFO     | reporting | Saved results/e4_wce/e4/predictions.csv
+2026-08-29 13:05:28 | INFO     | reporting | Saved results/e4_wce/e4/metrics.json
+2026-08-29 13:05:28 | INFO     | reporting | Saved results/e4_wce/e4/metrics.csv
+2026-08-29 13:05:28 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-08-29 13:05:28 | INFO     | reporting | ====================================================
+2026-08-29 13:05:28 | INFO     | reporting |   FINAL RESULTS
+2026-08-29 13:05:28 | INFO     | reporting | ====================================================
+2026-08-29 13:05:28 | INFO     | reporting | TRAIN
+2026-08-29 13:05:28 | INFO     | reporting |   Accuracy           : nan
+2026-08-29 13:05:28 | INFO     | reporting |   Macro Precision    : nan
+2026-08-29 13:05:28 | INFO     | reporting |   Macro Recall       : nan
+2026-08-29 13:05:28 | INFO     | reporting |   Macro F1           : nan
+2026-08-29 13:05:28 | INFO     | reporting |   Weighted Precision : nan
+2026-08-29 13:05:28 | INFO     | reporting |   Weighted Recall    : nan
+2026-08-29 13:05:28 | INFO     | reporting |   Weighted F1        : nan
+2026-08-29 13:05:28 | INFO     | reporting |   ------------------------------------------------
+2026-08-29 13:05:28 | INFO     | reporting | VALIDATION
+2026-08-29 13:05:28 | INFO     | reporting |   Accuracy           : 0.5932
+2026-08-29 13:05:28 | INFO     | reporting |   Macro Precision    : 0.6714
+2026-08-29 13:05:28 | INFO     | reporting |   Macro Recall       : 0.6190
+2026-08-29 13:05:28 | INFO     | reporting |   Macro F1           : 0.6383
+2026-08-29 13:05:28 | INFO     | reporting |   Weighted Precision : 0.6249
+2026-08-29 13:05:28 | INFO     | reporting |   Weighted Recall    : 0.5932
+2026-08-29 13:05:28 | INFO     | reporting |   Weighted F1        : 0.6038
+2026-08-29 13:05:28 | INFO     | reporting |   MAE                : 0.4843
+2026-08-29 13:05:28 | INFO     | reporting |   QWK                : 0.7567
+2026-08-29 13:05:28 | INFO     | reporting |   ------------------------------------------------
+2026-08-29 13:05:28 | INFO     | reporting | TEST
+2026-08-29 13:05:28 | INFO     | reporting |   Accuracy           : 0.6262
+2026-08-29 13:05:28 | INFO     | reporting |   Macro Precision    : 0.6722
+2026-08-29 13:05:28 | INFO     | reporting |   Macro Recall       : 0.6416
+2026-08-29 13:05:28 | INFO     | reporting |   Macro F1           : 0.6549
+2026-08-29 13:05:28 | INFO     | reporting |   Weighted Precision : 0.6438
+2026-08-29 13:05:28 | INFO     | reporting |   Weighted Recall    : 0.6262
+2026-08-29 13:05:28 | INFO     | reporting |   Weighted F1        : 0.6336
+2026-08-29 13:05:28 | INFO     | reporting |   MAE                : 0.4444
+2026-08-29 13:05:28 | INFO     | reporting |   QWK                : 0.7819
+2026-08-29 13:05:28 | INFO     | reporting | ====================================================
+2026-08-29 13:05:28 | INFO     | reporting | Ablation summary updated → results/e4_wce/ablation_summary.csv

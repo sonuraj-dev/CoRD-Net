@@ -1,0 +1,469 @@
+2026-08-29 12:05:45 | INFO     | utils | Logging to logs/e2.log
+2026-08-29 12:05:45 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-08-29 12:05:45 | INFO     | __main__ |   CoRD-Net — ConvNeXt + Auto-Localization (STN)
+2026-08-29 12:05:45 | INFO     | __main__ |   Experiment  : E2
+2026-08-29 12:05:45 | INFO     | __main__ |   Device      : cuda
+2026-08-29 12:05:45 | INFO     | __main__ |   Epochs      : 60
+2026-08-29 12:05:45 | INFO     | __main__ |   Batch size  : 16
+2026-08-29 12:05:45 | INFO     | __main__ |   Data root   : Dataset
+2026-08-29 12:05:45 | INFO     | __main__ |   Pretrained  : True
+2026-08-29 12:05:45 | INFO     | __main__ |   Results dir : results/e2_wce
+2026-08-29 12:05:45 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-08-29 12:05:45 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-29 12:05:45 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-29 12:05:45 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-29 12:05:45 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-29 12:05:45 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+/home/sr/CoRD-Net-dev/trainer.py:90: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.scaler    = GradScaler() if self.tcfg.amp else None
+2026-08-29 12:05:45 | INFO     | utils | ┌─ E2 active modules ──────────────────────────────────┐
+2026-08-29 12:05:45 | INFO     | utils | │  ✓  STN (Auto-Localization)                        │
+2026-08-29 12:05:45 | INFO     | utils | │  ✗  Dual-Intensity Stem                            │
+2026-08-29 12:05:45 | INFO     | utils | │  ✗  Compartment Branches                           │
+2026-08-29 12:05:45 | INFO     | utils | │  ✗  Soft ROI Mask (DRP Block)                      │
+2026-08-29 12:05:45 | INFO     | utils | │  ✗  Prototype-Guided Refinement (PGR)              │
+2026-08-29 12:05:45 | INFO     | utils | │  ✗  Relational Token Coupling (RTC)                │
+2026-08-29 12:05:45 | INFO     | utils | │  ✗  Auxiliary Heads                                │
+2026-08-29 12:05:45 | INFO     | utils | └────────────────────────────────────────────────────┘
+2026-08-29 12:05:45 | INFO     | utils | ┌─ E2 parameter summary ──────────────────────────────┐
+2026-08-29 12:05:45 | INFO     | utils | │  Total parameters    : 30,738,475                  │
+2026-08-29 12:05:45 | INFO     | utils | │  Trainable parameters: 30,738,475                  │
+2026-08-29 12:05:45 | INFO     | utils | └────────────────────────────────────────────────────┘
+2026-08-29 12:05:45 | INFO     | trainer | Training E2 | epochs 1→60 | device=cuda
+
+========== CLASSIFIER INITIALIZATION ==========
+classifier.weight
+mean: -8.28835618449375e-05
+std : 0.02599824033677578
+classifier.bias
+mean: -0.0028208810836076736
+std : 0.02661062404513359
+Classifier bias: tensor([-0.0321, -0.0041, -0.0110, -0.0076,  0.0406])
+===============================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+Feature mean : 0.002300262451171875
+Feature std  : 0.0872802734375
+Feature norm : 1.9647655487060547
+Classifier weight mean: -8.288356912089512e-05
+Classifier weight std : 0.02599824033677578
+Classifier bias: tensor([-0.0321, -0.0041, -0.0110, -0.0076,  0.0406])
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2679,  0.0774,  0.2296, -0.3581, -0.3438])
+============================================================
+
+2026-08-29 12:06:19 | INFO     | utils | Checkpoint saved → checkpoints/e2_wce/e2_best.pt
+2026-08-29 12:06:19 | INFO     | trainer | epoch=1/60 | time=29.1s | lr=1.00e-04 | train/kl=1.4655 | train/total=1.4655 | train/accuracy=0.5038 | val/kl=1.5681 | val/total=1.5681 | val/accuracy=0.4540 | val/kappa=0.2633 | val/mae=1.0145 | val/macro_f1=0.3446
+First batch prediction counts: tensor([15,  0,  0,  1,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [734, 7, 36, 36, 13]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2669,  0.0714,  0.2601, -0.4026, -0.2574])
+============================================================
+
+2026-08-29 12:06:49 | INFO     | utils | Checkpoint saved → checkpoints/e2_wce/e2_best.pt
+2026-08-29 12:06:49 | INFO     | trainer | epoch=2/60 | time=26.9s | lr=9.99e-05 | train/kl=1.4275 | train/total=1.4275 | train/accuracy=0.5305 | val/kl=1.3316 | val/total=1.3316 | val/accuracy=0.6053 | val/kappa=0.7234 | val/mae=0.5545 | val/macro_f1=0.5427
+First batch prediction counts: tensor([13,  0,  1,  2,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [466, 15, 195, 102, 48]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2878,  0.1843,  0.2356, -0.5605, -0.2304])
+============================================================
+
+2026-08-29 12:07:18 | INFO     | trainer | epoch=3/60 | time=27.1s | lr=9.97e-05 | train/kl=1.2664 | train/total=1.2664 | train/accuracy=0.6079 | val/kl=1.6420 | val/total=1.6420 | val/accuracy=0.4322 | val/kappa=0.0919 | val/mae=1.1150 | val/macro_f1=0.1857
+First batch prediction counts: tensor([15,  0,  1,  0,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [771, 1, 35, 17, 2]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.3273,  0.2115,  0.2007, -0.5717, -0.1941])
+============================================================
+
+2026-08-29 12:07:49 | INFO     | utils | Checkpoint saved → checkpoints/e2_wce/e2_best.pt
+2026-08-29 12:07:49 | INFO     | trainer | epoch=4/60 | time=27.1s | lr=9.94e-05 | train/kl=1.2686 | train/total=1.2686 | train/accuracy=0.5992 | val/kl=1.3119 | val/total=1.3119 | val/accuracy=0.6271 | val/kappa=0.7272 | val/mae=0.5169 | val/macro_f1=0.5980
+First batch prediction counts: tensor([15,  0,  0,  1,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [478, 38, 191, 92, 27]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2864,  0.2209,  0.2111, -0.5443, -0.2082])
+============================================================
+
+2026-08-29 12:08:19 | INFO     | utils | Checkpoint saved → checkpoints/e2_wce/e2_best.pt
+2026-08-29 12:08:19 | INFO     | trainer | epoch=5/60 | time=27.2s | lr=9.89e-05 | train/kl=1.2184 | train/total=1.2184 | train/accuracy=0.6279 | val/kl=1.2926 | val/total=1.2926 | val/accuracy=0.6416 | val/kappa=0.7530 | val/mae=0.4843 | val/macro_f1=0.6126
+First batch prediction counts: tensor([13,  3,  0,  0,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [449, 45, 188, 120, 24]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2836,  0.1965,  0.2431, -0.5854, -0.1740])
+============================================================
+
+2026-08-29 12:08:49 | INFO     | trainer | epoch=6/60 | time=27.2s | lr=9.83e-05 | train/kl=1.2013 | train/total=1.2013 | train/accuracy=0.6304 | val/kl=1.3014 | val/total=1.3014 | val/accuracy=0.6199 | val/kappa=0.7450 | val/mae=0.5085 | val/macro_f1=0.5720
+First batch prediction counts: tensor([14,  1,  1,  0,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [469, 37, 203, 74, 43]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.3105,  0.2028,  0.1866, -0.5726, -0.1506])
+============================================================
+
+2026-08-29 12:09:19 | INFO     | trainer | epoch=7/60 | time=27.2s | lr=9.76e-05 | train/kl=1.1913 | train/total=1.1913 | train/accuracy=0.6439 | val/kl=1.2897 | val/total=1.2897 | val/accuracy=0.6174 | val/kappa=0.7506 | val/mae=0.5061 | val/macro_f1=0.5937
+First batch prediction counts: tensor([10,  5,  0,  1,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [445, 90, 141, 109, 41]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2888,  0.1818,  0.2232, -0.5271, -0.1705])
+============================================================
+
+2026-08-29 12:09:49 | INFO     | utils | Checkpoint saved → checkpoints/e2_wce/e2_best.pt
+2026-08-29 12:09:49 | INFO     | trainer | epoch=8/60 | time=27.2s | lr=9.67e-05 | train/kl=1.2548 | train/total=1.2548 | train/accuracy=0.6165 | val/kl=1.2413 | val/total=1.2413 | val/accuracy=0.6489 | val/kappa=0.7731 | val/mae=0.4504 | val/macro_f1=0.6744
+First batch prediction counts: tensor([8, 4, 3, 1, 0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [357, 121, 195, 128, 25]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2774,  0.2149,  0.1900, -0.5902, -0.1121])
+============================================================
+
+2026-08-29 12:10:19 | INFO     | trainer | epoch=9/60 | time=27.2s | lr=9.57e-05 | train/kl=1.1534 | train/total=1.1534 | train/accuracy=0.6648 | val/kl=1.3355 | val/total=1.3355 | val/accuracy=0.6041 | val/kappa=0.7189 | val/mae=0.5254 | val/macro_f1=0.6305
+First batch prediction counts: tensor([7, 7, 0, 2, 0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [297, 193, 147, 154, 35]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.3061,  0.1706,  0.1695, -0.5449, -0.1077])
+============================================================
+
+2026-08-29 12:10:49 | INFO     | trainer | epoch=10/60 | time=27.2s | lr=9.46e-05 | train/kl=1.1619 | train/total=1.1619 | train/accuracy=0.6620 | val/kl=1.2672 | val/total=1.2672 | val/accuracy=0.6295 | val/kappa=0.7455 | val/mae=0.4855 | val/macro_f1=0.6576
+2026-08-29 12:10:49 | INFO     | utils | Checkpoint saved → checkpoints/e2_wce/e2_epoch0010.pt
+First batch prediction counts: tensor([7, 7, 2, 0, 0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [293, 140, 240, 122, 31]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.3157,  0.1894,  0.1940, -0.5644, -0.0995])
+============================================================
+
+2026-08-29 12:11:19 | INFO     | trainer | epoch=11/60 | time=27.2s | lr=9.33e-05 | train/kl=1.2001 | train/total=1.2001 | train/accuracy=0.6330 | val/kl=1.2986 | val/total=1.2986 | val/accuracy=0.6223 | val/kappa=0.6813 | val/mae=0.5412 | val/macro_f1=0.6431
+First batch prediction counts: tensor([11,  3,  1,  1,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [355, 83, 271, 95, 22]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.3014,  0.1713,  0.1411, -0.5058, -0.0822])
+============================================================
+
+2026-08-29 12:11:49 | INFO     | trainer | epoch=12/60 | time=26.9s | lr=9.19e-05 | train/kl=1.2687 | train/total=1.2687 | train/accuracy=0.6086 | val/kl=1.3203 | val/total=1.3203 | val/accuracy=0.6053 | val/kappa=0.6611 | val/mae=0.5835 | val/macro_f1=0.5911
+First batch prediction counts: tensor([12,  1,  3,  0,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [423, 30, 249, 97, 27]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.3036,  0.1680,  0.1463, -0.5008, -0.0831])
+============================================================
+
+2026-08-29 12:12:19 | INFO     | trainer | epoch=13/60 | time=26.8s | lr=9.05e-05 | train/kl=1.2601 | train/total=1.2601 | train/accuracy=0.6120 | val/kl=1.3083 | val/total=1.3083 | val/accuracy=0.5969 | val/kappa=0.7362 | val/mae=0.5097 | val/macro_f1=0.6164
+First batch prediction counts: tensor([9, 7, 0, 0, 0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [367, 192, 150, 80, 37]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.3044,  0.1337,  0.1629, -0.4965, -0.0790])
+============================================================
+
+2026-08-29 12:12:48 | INFO     | trainer | epoch=14/60 | time=26.7s | lr=8.89e-05 | train/kl=1.2423 | train/total=1.2423 | train/accuracy=0.6221 | val/kl=1.3583 | val/total=1.3583 | val/accuracy=0.5678 | val/kappa=0.6335 | val/mae=0.6162 | val/macro_f1=0.5939
+First batch prediction counts: tensor([10,  3,  2,  1,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [337, 123, 243, 91, 32]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2999,  0.1495,  0.1382, -0.5133, -0.0642])
+============================================================
+
+2026-08-29 12:13:18 | INFO     | trainer | epoch=15/60 | time=26.8s | lr=8.72e-05 | train/kl=1.2006 | train/total=1.2006 | train/accuracy=0.6477 | val/kl=1.3195 | val/total=1.3195 | val/accuracy=0.5920 | val/kappa=0.7194 | val/mae=0.5169 | val/macro_f1=0.6353
+First batch prediction counts: tensor([9, 7, 0, 0, 0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [288, 228, 178, 104, 28]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2851,  0.1394,  0.1394, -0.4740, -0.0751])
+============================================================
+
+2026-08-29 12:13:47 | INFO     | trainer | epoch=16/60 | time=26.8s | lr=8.54e-05 | train/kl=1.2054 | train/total=1.2054 | train/accuracy=0.6371 | val/kl=1.3180 | val/total=1.3180 | val/accuracy=0.5908 | val/kappa=0.6721 | val/mae=0.5787 | val/macro_f1=0.5575
+First batch prediction counts: tensor([12,  4,  0,  0,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [414, 114, 164, 93, 41]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.3178,  0.1505,  0.1052, -0.5048, -0.0443])
+============================================================
+
+2026-08-29 12:14:17 | INFO     | trainer | epoch=17/60 | time=26.8s | lr=8.35e-05 | train/kl=1.2101 | train/total=1.2101 | train/accuracy=0.6347 | val/kl=1.3099 | val/total=1.3099 | val/accuracy=0.6186 | val/kappa=0.6956 | val/mae=0.5351 | val/macro_f1=0.6303
+First batch prediction counts: tensor([13,  3,  0,  0,  0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [466, 112, 132, 93, 23]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+/home/sr/CoRD-Net-dev/trainer.py:206: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.tcfg.amp):
+
+============================================================
+TRAIN EPOCH DEBUG
+============================================================
+Average logits: tensor([ 0.2994,  0.1589,  0.1269, -0.4934, -0.0740])
+============================================================
+
+2026-08-29 12:14:46 | INFO     | trainer | epoch=18/60 | time=26.9s | lr=8.15e-05 | train/kl=1.2070 | train/total=1.2070 | train/accuracy=0.6423 | val/kl=1.3765 | val/total=1.3765 | val/accuracy=0.5690 | val/kappa=0.6184 | val/mae=0.6332 | val/macro_f1=0.5545
+2026-08-29 12:14:46 | INFO     | trainer | Early stopping triggered at epoch 18 (no val QWK improvement for 10 epochs).
+2026-08-29 12:14:47 | INFO     | utils | Checkpoint saved → checkpoints/e2_wce/e2_final.pt
+2026-08-29 12:14:47 | INFO     | trainer | Training complete. Generating reports …
+2026-08-29 12:14:47 | INFO     | reporting | Results directory: results/e2_wce/e2
+2026-08-29 12:14:47 | INFO     | trainer | Collecting val logits …
+First batch prediction counts: tensor([9, 3, 4, 0, 0])
+
+========== VALIDATION HISTOGRAM ==========
+Pred : [403, 112, 204, 60, 47]
+True : [328, 153, 212, 106, 27]
+==========================================
+
+Early stopping at epoch 18
+2026-08-29 12:14:50 | INFO     | trainer | Collecting train logits …
+2026-08-29 12:15:07 | INFO     | trainer | Collecting test logits …
+2026-08-29 12:15:13 | INFO     | reporting | Generating reports for experiment 'e2' …
+2026-08-29 12:15:13 | INFO     | reporting | Saved results/e2_wce/e2/val_confusion_matrix.png
+2026-08-29 12:15:13 | INFO     | reporting | Saved results/e2_wce/e2/val_confusion_matrix.csv
+2026-08-29 12:15:13 | INFO     | reporting | Saved results/e2_wce/e2/test_confusion_matrix.png
+2026-08-29 12:15:13 | INFO     | reporting | Saved results/e2_wce/e2/test_confusion_matrix.csv
+2026-08-29 12:15:13 | INFO     | reporting | Saved results/e2_wce/e2/classification_report_val.txt
+2026-08-29 12:15:13 | INFO     | reporting | Saved results/e2_wce/e2/classification_report_test.txt
+2026-08-29 12:15:13 | INFO     | reporting | Saved results/e2_wce/e2/predictions.csv
+2026-08-29 12:15:13 | INFO     | reporting | Saved results/e2_wce/e2/metrics.json
+2026-08-29 12:15:13 | INFO     | reporting | Saved results/e2_wce/e2/metrics.csv
+2026-08-29 12:15:14 | INFO     | reporting | Saved results/e2_wce/e2/plots/loss_curve.png
+2026-08-29 12:15:14 | INFO     | reporting | Saved results/e2_wce/e2/plots/accuracy_curve.png
+2026-08-29 12:15:14 | INFO     | reporting | Saved results/e2_wce/e2/plots/loss_vs_accuracy.png
+2026-08-29 12:15:14 | INFO     | reporting | Saved results/e2_wce/e2/plots/f1_curve.png
+2026-08-29 12:15:14 | INFO     | reporting | Saved results/e2_wce/e2/plots/qwk_curve.png
+2026-08-29 12:15:14 | INFO     | reporting | Saved results/e2_wce/e2/plots/mae_curve.png
+2026-08-29 12:15:14 | INFO     | reporting | Saved results/e2_wce/e2/plots/learning_rate_curve.png
+2026-08-29 12:15:14 | INFO     | reporting | ====================================================
+2026-08-29 12:15:14 | INFO     | reporting |   FINAL RESULTS
+2026-08-29 12:15:14 | INFO     | reporting | ====================================================
+2026-08-29 12:15:14 | INFO     | reporting | TRAIN
+2026-08-29 12:15:14 | INFO     | reporting |   Accuracy           : 0.5899
+2026-08-29 12:15:14 | INFO     | reporting |   Macro Precision    : 0.5913
+2026-08-29 12:15:14 | INFO     | reporting |   Macro Recall       : 0.5443
+2026-08-29 12:15:14 | INFO     | reporting |   Macro F1           : 0.5421
+2026-08-29 12:15:14 | INFO     | reporting |   Weighted Precision : 0.5903
+2026-08-29 12:15:14 | INFO     | reporting |   Weighted Recall    : 0.5899
+2026-08-29 12:15:14 | INFO     | reporting |   Weighted F1        : 0.5658
+2026-08-29 12:15:14 | INFO     | reporting |   MAE                : 0.6257
+2026-08-29 12:15:14 | INFO     | reporting |   QWK                : 0.6016
+2026-08-29 12:15:14 | INFO     | reporting |   ------------------------------------------------
+2026-08-29 12:15:14 | INFO     | reporting | VALIDATION
+2026-08-29 12:15:14 | INFO     | reporting |   Accuracy           : 0.5690
+2026-08-29 12:15:14 | INFO     | reporting |   Macro Precision    : 0.5717
+2026-08-29 12:15:14 | INFO     | reporting |   Macro Recall       : 0.5842
+2026-08-29 12:15:14 | INFO     | reporting |   Macro F1           : 0.5545
+2026-08-29 12:15:14 | INFO     | reporting |   Weighted Precision : 0.5692
+2026-08-29 12:15:14 | INFO     | reporting |   Weighted Recall    : 0.5690
+2026-08-29 12:15:14 | INFO     | reporting |   Weighted F1        : 0.5569
+2026-08-29 12:15:14 | INFO     | reporting |   MAE                : 0.6332
+2026-08-29 12:15:14 | INFO     | reporting |   QWK                : 0.6184
+2026-08-29 12:15:14 | INFO     | reporting |   ------------------------------------------------
+2026-08-29 12:15:14 | INFO     | reporting | TEST
+2026-08-29 12:15:14 | INFO     | reporting |   Accuracy           : 0.5809
+2026-08-29 12:15:14 | INFO     | reporting |   Macro Precision    : 0.5796
+2026-08-29 12:15:14 | INFO     | reporting |   Macro Recall       : 0.5820
+2026-08-29 12:15:14 | INFO     | reporting |   Macro F1           : 0.5660
+2026-08-29 12:15:14 | INFO     | reporting |   Weighted Precision : 0.5718
+2026-08-29 12:15:14 | INFO     | reporting |   Weighted Recall    : 0.5809
+2026-08-29 12:15:14 | INFO     | reporting |   Weighted F1        : 0.5652
+2026-08-29 12:15:14 | INFO     | reporting |   MAE                : 0.5731
+2026-08-29 12:15:14 | INFO     | reporting |   QWK                : 0.6827
+2026-08-29 12:15:14 | INFO     | reporting | ====================================================
+2026-08-29 12:15:14 | INFO     | reporting | Ablation summary updated → results/e2_wce/ablation_summary.csv
+
+===== VAL PER-CLASS RESULTS =====
+Class      Precision      Recall          F1     Support
+KL0           0.6030      0.7409      0.6648         328
+KL1           0.3214      0.2353      0.2717         153
+KL2           0.5686      0.5472      0.5577         212
+KL3           0.8333      0.4717      0.6024         106
+KL4           0.5319      0.9259      0.6757          27
+
+KL BOUNDARY ERRORS:
+KL0_to_KL1     : 42
+KL1_to_KL0     : 86
+KL1_to_KL2     : 23
+KL2_to_KL1     : 29
+KL2_to_KL3     : 4
+KL3_to_KL2     : 29
+
+CONFUSION MATRIX:
+[[243  42  36   2   5]
+ [ 86  36  23   3   5]
+ [ 59  29 116   4   4]
+ [ 14   5  29  50   8]
+ [  1   0   0   1  25]]
+
+===== TEST PER-CLASS RESULTS =====
+Class      Precision      Recall          F1     Support
+KL0           0.6212      0.8059      0.7016         639
+KL1           0.2477      0.1824      0.2101         296
+KL2           0.5873      0.5190      0.5511         447
+KL3           0.8169      0.5202      0.6356         223
+KL4           0.6250      0.8824      0.7317          51
+
+KL BOUNDARY ERRORS:
+KL0_to_KL1     : 75
+KL1_to_KL0     : 173
+KL1_to_KL2     : 64
+KL2_to_KL1     : 73
+KL2_to_KL3     : 20
+KL3_to_KL2     : 51
+
+CONFUSION MATRIX:
+[[515  75  46   1   2]
+ [173  54  64   3   2]
+ [115  73 232  20   7]
+ [ 24  16  51 116  16]
+ [  2   0   2   2  45]]

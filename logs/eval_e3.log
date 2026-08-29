@@ -157,3 +157,58 @@
 2026-08-28 13:28:54 | INFO     | reporting |   MAE                : 0.4487
 2026-08-28 13:28:54 | INFO     | reporting |   QWK                : 0.7830
 2026-08-28 13:28:54 | INFO     | reporting | ====================================================
+2026-08-29 11:04:36 | INFO     | utils | Logging to logs/eval_e3.log
+2026-08-29 11:04:37 | INFO     | utils | Checkpoint loaded ← checkpoints/e3_best.pt  (experiment=e3  epoch=11)
+2026-08-29 11:04:37 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-29 11:04:37 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-29 11:04:37 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-08-29 11:04:37 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-08-29 11:04:37 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-08-29 11:04:37 | INFO     | __main__ | Collecting logits …
+2026-08-29 11:04:52 | INFO     | reporting | Results directory: results/e3_mild/e3
+2026-08-29 11:04:52 | INFO     | reporting | Generating reports for experiment 'e3' …
+2026-08-29 11:04:52 | INFO     | reporting | Saved results/e3_mild/e3/val_confusion_matrix.png
+2026-08-29 11:04:52 | INFO     | reporting | Saved results/e3_mild/e3/val_confusion_matrix.csv
+2026-08-29 11:04:52 | INFO     | reporting | Saved results/e3_mild/e3/test_confusion_matrix.png
+2026-08-29 11:04:52 | INFO     | reporting | Saved results/e3_mild/e3/test_confusion_matrix.csv
+2026-08-29 11:04:52 | INFO     | reporting | Saved results/e3_mild/e3/classification_report_val.txt
+2026-08-29 11:04:52 | INFO     | reporting | Saved results/e3_mild/e3/classification_report_test.txt
+2026-08-29 11:04:52 | INFO     | reporting | Saved results/e3_mild/e3/predictions.csv
+2026-08-29 11:04:52 | INFO     | reporting | Saved results/e3_mild/e3/metrics.json
+2026-08-29 11:04:52 | INFO     | reporting | Saved results/e3_mild/e3/metrics.csv
+2026-08-29 11:04:52 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-08-29 11:04:52 | INFO     | reporting | ====================================================
+2026-08-29 11:04:52 | INFO     | reporting |   FINAL RESULTS
+2026-08-29 11:04:52 | INFO     | reporting | ====================================================
+2026-08-29 11:04:52 | INFO     | reporting | TRAIN
+2026-08-29 11:04:52 | INFO     | reporting |   Accuracy           : nan
+2026-08-29 11:04:52 | INFO     | reporting |   Macro Precision    : nan
+2026-08-29 11:04:52 | INFO     | reporting |   Macro Recall       : nan
+2026-08-29 11:04:52 | INFO     | reporting |   Macro F1           : nan
+2026-08-29 11:04:52 | INFO     | reporting |   Weighted Precision : nan
+2026-08-29 11:04:52 | INFO     | reporting |   Weighted Recall    : nan
+2026-08-29 11:04:52 | INFO     | reporting |   Weighted F1        : nan
+2026-08-29 11:04:52 | INFO     | reporting |   ------------------------------------------------
+2026-08-29 11:04:52 | INFO     | reporting | VALIDATION
+2026-08-29 11:04:52 | INFO     | reporting |   Accuracy           : 0.6768
+2026-08-29 11:04:52 | INFO     | reporting |   Macro Precision    : 0.7181
+2026-08-29 11:04:52 | INFO     | reporting |   Macro Recall       : 0.6550
+2026-08-29 11:04:52 | INFO     | reporting |   Macro F1           : 0.6782
+2026-08-29 11:04:52 | INFO     | reporting |   Weighted Precision : 0.6602
+2026-08-29 11:04:52 | INFO     | reporting |   Weighted Recall    : 0.6768
+2026-08-29 11:04:52 | INFO     | reporting |   Weighted F1        : 0.6620
+2026-08-29 11:04:52 | INFO     | reporting |   MAE                : 0.4068
+2026-08-29 11:04:52 | INFO     | reporting |   QWK                : 0.7950
+2026-08-29 11:04:52 | INFO     | reporting |   ------------------------------------------------
+2026-08-29 11:04:52 | INFO     | reporting | TEST
+2026-08-29 11:04:52 | INFO     | reporting |   Accuracy           : 0.6920
+2026-08-29 11:04:52 | INFO     | reporting |   Macro Precision    : 0.7298
+2026-08-29 11:04:52 | INFO     | reporting |   Macro Recall       : 0.6569
+2026-08-29 11:04:52 | INFO     | reporting |   Macro F1           : 0.6846
+2026-08-29 11:04:52 | INFO     | reporting |   Weighted Precision : 0.6814
+2026-08-29 11:04:52 | INFO     | reporting |   Weighted Recall    : 0.6920
+2026-08-29 11:04:52 | INFO     | reporting |   Weighted F1        : 0.6817
+2026-08-29 11:04:52 | INFO     | reporting |   MAE                : 0.3623
+2026-08-29 11:04:52 | INFO     | reporting |   QWK                : 0.8334
+2026-08-29 11:04:52 | INFO     | reporting | ====================================================
+2026-08-29 11:04:52 | INFO     | reporting | Ablation summary updated → results/e3_mild/ablation_summary.csv

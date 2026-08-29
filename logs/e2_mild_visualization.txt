@@ -1,0 +1,7 @@
+usage: evaluate.py [-h] --checkpoint CHECKPOINT --exp
+                   {e1,e2,e3,e4,e5,e6,e7,e8} --data-root DATA_ROOT
+                   [--split {val,test,both}] [--metadata-csv METADATA_CSV]
+                   [--batch-size BATCH_SIZE] [--device DEVICE]
+                   [--num-workers NUM_WORKERS] [--log-dir LOG_DIR]
+                   [--results-dir RESULTS_DIR]
+evaluate.py: error: unrecognized arguments: --visualize
