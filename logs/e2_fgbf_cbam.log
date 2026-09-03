@@ -1,0 +1,149 @@
+2026-09-02 13:39:42 | INFO     | utils | Logging to logs\e2_fgbf_cbam.log
+2026-09-02 13:39:42 | INFO     | __main__ |   CoRD-Net — E2 + FGBF + CBAM-Lite Control Block
+2026-09-02 13:39:42 | INFO     | __main__ |   Experiment  : E2_FGBF_CBAM
+2026-09-02 13:39:42 | INFO     | __main__ |   Device      : cuda
+2026-09-02 13:39:42 | INFO     | __main__ |   Epochs      : 60
+2026-09-02 13:39:42 | INFO     | __main__ |   Batch size  : 16
+2026-09-02 13:39:42 | INFO     | __main__ |   Data root   : Dataset
+2026-09-02 13:39:42 | INFO     | __main__ |   Pretrained  : True
+2026-09-02 13:39:42 | INFO     | __main__ |   Results dir : results/e2_fgbf_cbam
+2026-09-02 13:39:42 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 13:39:42 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 13:39:42 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-09-02 13:39:42 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 13:39:42 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 13:40:26 | INFO     | trainer | epoch=1/60 | time=31.1s | lr=1.00e-04 | train/kl=1.2899 | train/main=1.2899 | train/total=1.4319 | train/fgbf=0.9472 | train/fgbf_loss=0.9472 | train/weighted_fgbf=0.1421 | train/weighted_fgbf_loss=0.1421 | train/fgbf_grad_norm=0.2964 | train/backbone_grad_norm=8.0345 | train/accuracy=0.4903 | val/kl=1.1586 | val/main=1.1586 | val/total=1.2702 | val/fgbf=0.7437 | val/fgbf_loss=0.7437 | val/weighted_fgbf=0.1115 | val/weighted_fgbf_loss=0.1115 | val/accuracy=0.6041 | val/kappa=0.6575 | val/mae=0.5811 | val/macro_f1=0.4510 | val/fgbf_low_grade_accuracy=0.6349 | val/fgbf_kl0_precision=0.5970 | val/fgbf_kl0_recall=0.9756 | val/fgbf_kl0_f1=0.7407 | val/fgbf_kl1_precision=0.0000 | val/fgbf_kl1_recall=0.0000 | val/fgbf_kl1_f1=0.0000 | val/fgbf_kl2_precision=0.7643 | val/fgbf_kl2_recall=0.5660 | val/fgbf_kl2_f1=0.6504 | val/fgbf_boundary_KL1_to_KL0=124.0000 | val/fgbf_boundary_KL1_to_KL2=29.0000
+2026-09-02 13:41:08 | INFO     | trainer | epoch=2/60 | time=30.9s | lr=9.99e-05 | train/kl=1.1765 | train/main=1.1765 | train/total=1.3076 | train/fgbf=0.8735 | train/fgbf_loss=0.8735 | train/weighted_fgbf=0.1310 | train/weighted_fgbf_loss=0.1310 | train/fgbf_grad_norm=0.3084 | train/backbone_grad_norm=9.1354 | train/accuracy=0.5632 | val/kl=1.2008 | val/main=1.2008 | val/total=1.3099 | val/fgbf=0.7277 | val/fgbf_loss=0.7277 | val/weighted_fgbf=0.1092 | val/weighted_fgbf_loss=0.1092 | val/accuracy=0.5666 | val/kappa=0.5382 | val/mae=0.6598 | val/macro_f1=0.4785 | val/fgbf_low_grade_accuracy=0.6133 | val/fgbf_kl0_precision=0.6575 | val/fgbf_kl0_recall=0.8018 | val/fgbf_kl0_f1=0.7225 | val/fgbf_kl1_precision=0.4583 | val/fgbf_kl1_recall=0.0719 | val/fgbf_kl1_f1=0.1243 | val/fgbf_kl2_precision=0.5613 | val/fgbf_kl2_recall=0.7123 | val/fgbf_kl2_f1=0.6279 | val/fgbf_boundary_KL1_to_KL0=81.0000 | val/fgbf_boundary_KL1_to_KL2=61.0000
+2026-09-02 13:41:50 | INFO     | trainer | epoch=3/60 | time=30.7s | lr=9.97e-05 | train/kl=1.1294 | train/main=1.1294 | train/total=1.2570 | train/fgbf=0.8508 | train/fgbf_loss=0.8508 | train/weighted_fgbf=0.1276 | train/weighted_fgbf_loss=0.1276 | train/fgbf_grad_norm=0.2927 | train/backbone_grad_norm=8.5142 | train/accuracy=0.5921 | val/kl=1.2331 | val/main=1.2331 | val/total=1.3478 | val/fgbf=0.7652 | val/fgbf_loss=0.7652 | val/weighted_fgbf=0.1148 | val/weighted_fgbf_loss=0.1148 | val/accuracy=0.5436 | val/kappa=0.4612 | val/mae=0.7639 | val/macro_f1=0.4434 | val/fgbf_low_grade_accuracy=0.5931 | val/fgbf_kl0_precision=0.6134 | val/fgbf_kl0_recall=0.8079 | val/fgbf_kl0_f1=0.6974 | val/fgbf_kl1_precision=0.3871 | val/fgbf_kl1_recall=0.0784 | val/fgbf_kl1_f1=0.1304 | val/fgbf_kl2_precision=0.5826 | val/fgbf_kl2_recall=0.6321 | val/fgbf_kl2_f1=0.6063 | val/fgbf_boundary_KL1_to_KL0=92.0000 | val/fgbf_boundary_KL1_to_KL2=49.0000
+2026-09-02 13:42:33 | INFO     | trainer | epoch=4/60 | time=30.6s | lr=9.94e-05 | train/kl=1.0948 | train/main=1.0948 | train/total=1.2172 | train/fgbf=0.8159 | train/fgbf_loss=0.8159 | train/weighted_fgbf=0.1224 | train/weighted_fgbf_loss=0.1224 | train/fgbf_grad_norm=0.2631 | train/backbone_grad_norm=8.3963 | train/accuracy=0.6111 | val/kl=1.0342 | val/main=1.0342 | val/total=1.1344 | val/fgbf=0.6677 | val/fgbf_loss=0.6677 | val/weighted_fgbf=0.1001 | val/weighted_fgbf_loss=0.1001 | val/accuracy=0.6550 | val/kappa=0.7467 | val/mae=0.4697 | val/macro_f1=0.6010 | val/fgbf_low_grade_accuracy=0.6623 | val/fgbf_kl0_precision=0.6435 | val/fgbf_kl0_recall=0.9299 | val/fgbf_kl0_f1=0.7606 | val/fgbf_kl1_precision=0.4138 | val/fgbf_kl1_recall=0.0784 | val/fgbf_kl1_f1=0.1319 | val/fgbf_kl2_precision=0.7474 | val/fgbf_kl2_recall=0.6698 | val/fgbf_kl2_f1=0.7065 | val/fgbf_boundary_KL1_to_KL0=111.0000 | val/fgbf_boundary_KL1_to_KL2=30.0000
+2026-09-02 13:43:15 | INFO     | trainer | epoch=5/60 | time=30.4s | lr=9.89e-05 | train/kl=1.0295 | train/main=1.0295 | train/total=1.1472 | train/fgbf=0.7846 | train/fgbf_loss=0.7846 | train/weighted_fgbf=0.1177 | train/weighted_fgbf_loss=0.1177 | train/fgbf_grad_norm=0.2659 | train/backbone_grad_norm=9.7544 | train/accuracy=0.6413 | val/kl=1.1742 | val/main=1.1742 | val/total=1.2841 | val/fgbf=0.7331 | val/fgbf_loss=0.7331 | val/weighted_fgbf=0.1100 | val/weighted_fgbf_loss=0.1100 | val/accuracy=0.5823 | val/kappa=0.6145 | val/mae=0.6356 | val/macro_f1=0.5607 | val/fgbf_low_grade_accuracy=0.5786 | val/fgbf_kl0_precision=0.7168 | val/fgbf_kl0_recall=0.6250 | val/fgbf_kl0_f1=0.6678 | val/fgbf_kl1_precision=0.3125 | val/fgbf_kl1_recall=0.1307 | val/fgbf_kl1_f1=0.1843 | val/fgbf_kl2_precision=0.5131 | val/fgbf_kl2_recall=0.8302 | val/fgbf_kl2_f1=0.6342 | val/fgbf_boundary_KL1_to_KL0=57.0000 | val/fgbf_boundary_KL1_to_KL2=76.0000
+2026-09-02 13:43:57 | INFO     | trainer | epoch=6/60 | time=30.9s | lr=9.83e-05 | train/kl=1.0159 | train/main=1.0159 | train/total=1.1307 | train/fgbf=0.7658 | train/fgbf_loss=0.7658 | train/weighted_fgbf=0.1149 | train/weighted_fgbf_loss=0.1149 | train/fgbf_grad_norm=0.2702 | train/backbone_grad_norm=10.3124 | train/accuracy=0.6475 | val/kl=1.0285 | val/main=1.0285 | val/total=1.1281 | val/fgbf=0.6642 | val/fgbf_loss=0.6642 | val/weighted_fgbf=0.0996 | val/weighted_fgbf_loss=0.0996 | val/accuracy=0.6429 | val/kappa=0.7244 | val/mae=0.4952 | val/macro_f1=0.6025 | val/fgbf_low_grade_accuracy=0.6566 | val/fgbf_kl0_precision=0.7112 | val/fgbf_kl0_recall=0.7957 | val/fgbf_kl0_f1=0.7511 | val/fgbf_kl1_precision=0.3710 | val/fgbf_kl1_recall=0.1503 | val/fgbf_kl1_f1=0.2140 | val/fgbf_kl2_precision=0.6477 | val/fgbf_kl2_recall=0.8066 | val/fgbf_kl2_f1=0.7185 | val/fgbf_boundary_KL1_to_KL0=75.0000 | val/fgbf_boundary_KL1_to_KL2=55.0000
+2026-09-02 13:44:39 | INFO     | trainer | epoch=7/60 | time=30.7s | lr=9.76e-05 | train/kl=0.9933 | train/main=0.9933 | train/total=1.1062 | train/fgbf=0.7531 | train/fgbf_loss=0.7531 | train/weighted_fgbf=0.1130 | train/weighted_fgbf_loss=0.1130 | train/fgbf_grad_norm=0.2711 | train/backbone_grad_norm=11.0523 | train/accuracy=0.6679 | val/kl=1.0573 | val/main=1.0573 | val/total=1.1578 | val/fgbf=0.6703 | val/fgbf_loss=0.6703 | val/weighted_fgbf=0.1005 | val/weighted_fgbf_loss=0.1005 | val/accuracy=0.6283 | val/kappa=0.6800 | val/mae=0.5351 | val/macro_f1=0.5771 | val/fgbf_low_grade_accuracy=0.6450 | val/fgbf_kl0_precision=0.6356 | val/fgbf_kl0_recall=0.9146 | val/fgbf_kl0_f1=0.7500 | val/fgbf_kl1_precision=0.4000 | val/fgbf_kl1_recall=0.1569 | val/fgbf_kl1_f1=0.2254 | val/fgbf_kl2_precision=0.7640 | val/fgbf_kl2_recall=0.5802 | val/fgbf_kl2_f1=0.6595 | val/fgbf_boundary_KL1_to_KL0=100.0000 | val/fgbf_boundary_KL1_to_KL2=29.0000
+2026-09-02 13:45:22 | INFO     | trainer | epoch=8/60 | time=30.9s | lr=9.67e-05 | train/kl=0.9869 | train/main=0.9869 | train/total=1.0975 | train/fgbf=0.7374 | train/fgbf_loss=0.7374 | train/weighted_fgbf=0.1106 | train/weighted_fgbf_loss=0.1106 | train/fgbf_grad_norm=0.2591 | train/backbone_grad_norm=10.8675 | train/accuracy=0.6629 | val/kl=1.0684 | val/main=1.0684 | val/total=1.1713 | val/fgbf=0.6862 | val/fgbf_loss=0.6862 | val/weighted_fgbf=0.1029 | val/weighted_fgbf_loss=0.1029 | val/accuracy=0.6332 | val/kappa=0.7451 | val/mae=0.4782 | val/macro_f1=0.5576 | val/fgbf_low_grade_accuracy=0.6494 | val/fgbf_kl0_precision=0.7108 | val/fgbf_kl0_recall=0.8018 | val/fgbf_kl0_f1=0.7536 | val/fgbf_kl1_precision=0.3243 | val/fgbf_kl1_recall=0.0784 | val/fgbf_kl1_f1=0.1263 | val/fgbf_kl2_precision=0.6119 | val/fgbf_kl2_recall=0.8255 | val/fgbf_kl2_f1=0.7028 | val/fgbf_boundary_KL1_to_KL0=78.0000 | val/fgbf_boundary_KL1_to_KL2=63.0000
+2026-09-02 13:46:04 | INFO     | trainer | epoch=9/60 | time=30.8s | lr=9.57e-05 | train/kl=0.9844 | train/main=0.9844 | train/total=1.0941 | train/fgbf=0.7311 | train/fgbf_loss=0.7311 | train/weighted_fgbf=0.1097 | train/weighted_fgbf_loss=0.1097 | train/fgbf_grad_norm=0.2563 | train/backbone_grad_norm=11.5236 | train/accuracy=0.6723 | val/kl=1.0776 | val/main=1.0776 | val/total=1.1864 | val/fgbf=0.7250 | val/fgbf_loss=0.7250 | val/weighted_fgbf=0.1088 | val/weighted_fgbf_loss=0.1088 | val/accuracy=0.6211 | val/kappa=0.7353 | val/mae=0.5145 | val/macro_f1=0.5866 | val/fgbf_low_grade_accuracy=0.6277 | val/fgbf_kl0_precision=0.7199 | val/fgbf_kl0_recall=0.7287 | val/fgbf_kl0_f1=0.7242 | val/fgbf_kl1_precision=0.3824 | val/fgbf_kl1_recall=0.1699 | val/fgbf_kl1_f1=0.2353 | val/fgbf_kl2_precision=0.5802 | val/fgbf_kl2_recall=0.8019 | val/fgbf_kl2_f1=0.6733 | val/fgbf_boundary_KL1_to_KL0=66.0000 | val/fgbf_boundary_KL1_to_KL2=61.0000
+2026-09-02 13:46:46 | INFO     | trainer | epoch=10/60 | time=30.5s | lr=9.46e-05 | train/kl=0.9630 | train/main=0.9630 | train/total=1.0693 | train/fgbf=0.7082 | train/fgbf_loss=0.7082 | train/weighted_fgbf=0.1062 | train/weighted_fgbf_loss=0.1062 | train/fgbf_grad_norm=0.2539 | train/backbone_grad_norm=11.5556 | train/accuracy=0.6828 | val/kl=1.0264 | val/main=1.0264 | val/total=1.1269 | val/fgbf=0.6699 | val/fgbf_loss=0.6699 | val/weighted_fgbf=0.1005 | val/weighted_fgbf_loss=0.1005 | val/accuracy=0.6392 | val/kappa=0.7612 | val/mae=0.4758 | val/macro_f1=0.6156 | val/fgbf_low_grade_accuracy=0.6450 | val/fgbf_kl0_precision=0.7013 | val/fgbf_kl0_recall=0.8018 | val/fgbf_kl0_f1=0.7482 | val/fgbf_kl1_precision=0.3167 | val/fgbf_kl1_recall=0.1242 | val/fgbf_kl1_f1=0.1784 | val/fgbf_kl2_precision=0.6395 | val/fgbf_kl2_recall=0.7783 | val/fgbf_kl2_f1=0.7021 | val/fgbf_boundary_KL1_to_KL0=80.0000 | val/fgbf_boundary_KL1_to_KL2=54.0000
+2026-09-02 13:47:29 | INFO     | trainer | epoch=11/60 | time=30.8s | lr=9.33e-05 | train/kl=0.9813 | train/main=0.9813 | train/total=1.0884 | train/fgbf=0.7139 | train/fgbf_loss=0.7139 | train/weighted_fgbf=0.1071 | train/weighted_fgbf_loss=0.1071 | train/fgbf_grad_norm=0.2474 | train/backbone_grad_norm=11.1877 | train/accuracy=0.6773 | val/kl=1.1350 | val/main=1.1350 | val/total=1.2419 | val/fgbf=0.7125 | val/fgbf_loss=0.7125 | val/weighted_fgbf=0.1069 | val/weighted_fgbf_loss=0.1069 | val/accuracy=0.6090 | val/kappa=0.5891 | val/mae=0.6102 | val/macro_f1=0.5164 | val/fgbf_low_grade_accuracy=0.6522 | val/fgbf_kl0_precision=0.6212 | val/fgbf_kl0_recall=0.9451 | val/fgbf_kl0_f1=0.7497 | val/fgbf_kl1_precision=0.5000 | val/fgbf_kl1_recall=0.0980 | val/fgbf_kl1_f1=0.1639 | val/fgbf_kl2_precision=0.7744 | val/fgbf_kl2_recall=0.5991 | val/fgbf_kl2_f1=0.6755 | val/fgbf_boundary_KL1_to_KL0=114.0000 | val/fgbf_boundary_KL1_to_KL2=24.0000
+2026-09-02 13:48:11 | INFO     | trainer | epoch=12/60 | time=30.5s | lr=9.19e-05 | train/kl=0.9883 | train/main=0.9883 | train/total=1.0947 | train/fgbf=0.7094 | train/fgbf_loss=0.7094 | train/weighted_fgbf=0.1064 | train/weighted_fgbf_loss=0.1064 | train/fgbf_grad_norm=0.2358 | train/backbone_grad_norm=10.9036 | train/accuracy=0.6700 | val/kl=1.0505 | val/main=1.0505 | val/total=1.1559 | val/fgbf=0.7028 | val/fgbf_loss=0.7028 | val/weighted_fgbf=0.1054 | val/weighted_fgbf_loss=0.1054 | val/accuracy=0.6271 | val/kappa=0.7258 | val/mae=0.5085 | val/macro_f1=0.6257 | val/fgbf_low_grade_accuracy=0.6392 | val/fgbf_kl0_precision=0.7240 | val/fgbf_kl0_recall=0.7439 | val/fgbf_kl0_f1=0.7338 | val/fgbf_kl1_precision=0.4124 | val/fgbf_kl1_recall=0.2614 | val/fgbf_kl1_f1=0.3200 | val/fgbf_kl2_precision=0.6139 | val/fgbf_kl2_recall=0.7500 | val/fgbf_kl2_f1=0.6752 | val/fgbf_boundary_KL1_to_KL0=65.0000 | val/fgbf_boundary_KL1_to_KL2=48.0000
+2026-09-02 13:48:53 | INFO     | trainer | epoch=13/60 | time=30.5s | lr=9.05e-05 | train/kl=0.9722 | train/main=0.9722 | train/total=1.0778 | train/fgbf=0.7038 | train/fgbf_loss=0.7038 | train/weighted_fgbf=0.1056 | train/weighted_fgbf_loss=0.1056 | train/fgbf_grad_norm=0.2369 | train/backbone_grad_norm=11.4629 | train/accuracy=0.6769 | val/kl=1.0947 | val/main=1.0947 | val/total=1.2019 | val/fgbf=0.7148 | val/fgbf_loss=0.7148 | val/weighted_fgbf=0.1072 | val/weighted_fgbf_loss=0.1072 | val/accuracy=0.6223 | val/kappa=0.6587 | val/mae=0.5436 | val/macro_f1=0.5717 | val/fgbf_low_grade_accuracy=0.6277 | val/fgbf_kl0_precision=0.6658 | val/fgbf_kl0_recall=0.8140 | val/fgbf_kl0_f1=0.7325 | val/fgbf_kl1_precision=0.3913 | val/fgbf_kl1_recall=0.2353 | val/fgbf_kl1_f1=0.2939 | val/fgbf_kl2_precision=0.6600 | val/fgbf_kl2_recall=0.6226 | val/fgbf_kl2_f1=0.6408 | val/fgbf_boundary_KL1_to_KL0=85.0000 | val/fgbf_boundary_KL1_to_KL2=32.0000
+2026-09-02 13:49:34 | INFO     | trainer | epoch=14/60 | time=30.4s | lr=8.89e-05 | train/kl=1.0078 | train/main=1.0078 | train/total=1.1178 | train/fgbf=0.7336 | train/fgbf_loss=0.7336 | train/weighted_fgbf=0.1100 | train/weighted_fgbf_loss=0.1100 | train/fgbf_grad_norm=0.2271 | train/backbone_grad_norm=10.2651 | train/accuracy=0.6619 | val/kl=1.1455 | val/main=1.1455 | val/total=1.2529 | val/fgbf=0.7159 | val/fgbf_loss=0.7159 | val/weighted_fgbf=0.1074 | val/weighted_fgbf_loss=0.1074 | val/accuracy=0.5993 | val/kappa=0.6084 | val/mae=0.6017 | val/macro_f1=0.5525 | val/fgbf_low_grade_accuracy=0.6450 | val/fgbf_kl0_precision=0.6595 | val/fgbf_kl0_recall=0.8384 | val/fgbf_kl0_f1=0.7383 | val/fgbf_kl1_precision=0.3854 | val/fgbf_kl1_recall=0.2418 | val/fgbf_kl1_f1=0.2972 | val/fgbf_kl2_precision=0.7500 | val/fgbf_kl2_recall=0.6368 | val/fgbf_kl2_f1=0.6888 | val/fgbf_boundary_KL1_to_KL0=87.0000 | val/fgbf_boundary_KL1_to_KL2=29.0000
+2026-09-02 13:50:16 | INFO     | trainer | epoch=15/60 | time=30.5s | lr=8.72e-05 | train/kl=1.0580 | train/main=1.0580 | train/total=1.1722 | train/fgbf=0.7611 | train/fgbf_loss=0.7611 | train/weighted_fgbf=0.1142 | train/weighted_fgbf_loss=0.1142 | train/fgbf_grad_norm=0.2178 | train/backbone_grad_norm=9.2179 | train/accuracy=0.6312 | val/kl=1.1345 | val/main=1.1345 | val/total=1.2409 | val/fgbf=0.7098 | val/fgbf_loss=0.7098 | val/weighted_fgbf=0.1065 | val/weighted_fgbf_loss=0.1065 | val/accuracy=0.6150 | val/kappa=0.5967 | val/mae=0.5969 | val/macro_f1=0.5573 | val/fgbf_low_grade_accuracy=0.6479 | val/fgbf_kl0_precision=0.6552 | val/fgbf_kl0_recall=0.8689 | val/fgbf_kl0_f1=0.7471 | val/fgbf_kl1_precision=0.4267 | val/fgbf_kl1_recall=0.2092 | val/fgbf_kl1_f1=0.2807 | val/fgbf_kl2_precision=0.7213 | val/fgbf_kl2_recall=0.6226 | val/fgbf_kl2_f1=0.6684 | val/fgbf_boundary_KL1_to_KL0=90.0000 | val/fgbf_boundary_KL1_to_KL2=31.0000
+2026-09-02 13:50:58 | INFO     | trainer | epoch=16/60 | time=30.6s | lr=8.54e-05 | train/kl=0.9682 | train/main=0.9682 | train/total=1.0706 | train/fgbf=0.6827 | train/fgbf_loss=0.6827 | train/weighted_fgbf=0.1024 | train/weighted_fgbf_loss=0.1024 | train/fgbf_grad_norm=0.2235 | train/backbone_grad_norm=10.6074 | train/accuracy=0.6787 | val/kl=1.1746 | val/main=1.1746 | val/total=1.2925 | val/fgbf=0.7863 | val/fgbf_loss=0.7863 | val/weighted_fgbf=0.1180 | val/weighted_fgbf_loss=0.1180 | val/accuracy=0.6041 | val/kappa=0.6039 | val/mae=0.6041 | val/macro_f1=0.5383 | val/fgbf_low_grade_accuracy=0.6306 | val/fgbf_kl0_precision=0.6062 | val/fgbf_kl0_recall=0.9482 | val/fgbf_kl0_f1=0.7396 | val/fgbf_kl1_precision=0.3725 | val/fgbf_kl1_recall=0.1242 | val/fgbf_kl1_f1=0.1863 | val/fgbf_kl2_precision=0.8295 | val/fgbf_kl2_recall=0.5047 | val/fgbf_kl2_f1=0.6276 | val/fgbf_boundary_KL1_to_KL0=118.0000 | val/fgbf_boundary_KL1_to_KL2=16.0000
+2026-09-02 13:51:40 | INFO     | trainer | epoch=17/60 | time=30.6s | lr=8.35e-05 | train/kl=1.0102 | train/main=1.0102 | train/total=1.1174 | train/fgbf=0.7146 | train/fgbf_loss=0.7146 | train/weighted_fgbf=0.1072 | train/weighted_fgbf_loss=0.1072 | train/fgbf_grad_norm=0.2194 | train/backbone_grad_norm=10.4701 | train/accuracy=0.6532 | val/kl=1.1756 | val/main=1.1756 | val/total=1.2890 | val/fgbf=0.7565 | val/fgbf_loss=0.7565 | val/weighted_fgbf=0.1135 | val/weighted_fgbf_loss=0.1135 | val/accuracy=0.5787 | val/kappa=0.4888 | val/mae=0.7058 | val/macro_f1=0.5263 | val/fgbf_low_grade_accuracy=0.6118 | val/fgbf_kl0_precision=0.6091 | val/fgbf_kl0_recall=0.8598 | val/fgbf_kl0_f1=0.7130 | val/fgbf_kl1_precision=0.4146 | val/fgbf_kl1_recall=0.2222 | val/fgbf_kl1_f1=0.2894 | val/fgbf_kl2_precision=0.7297 | val/fgbf_kl2_recall=0.5094 | val/fgbf_kl2_f1=0.6000 | val/fgbf_boundary_KL1_to_KL0=100.0000 | val/fgbf_boundary_KL1_to_KL2=19.0000
+2026-09-02 13:52:23 | INFO     | trainer | epoch=18/60 | time=30.8s | lr=8.15e-05 | train/kl=1.0208 | train/main=1.0208 | train/total=1.1281 | train/fgbf=0.7157 | train/fgbf_loss=0.7157 | train/weighted_fgbf=0.1074 | train/weighted_fgbf_loss=0.1074 | train/fgbf_grad_norm=0.2104 | train/backbone_grad_norm=10.5259 | train/accuracy=0.6511 | val/kl=1.2369 | val/main=1.2369 | val/total=1.3606 | val/fgbf=0.8241 | val/fgbf_loss=0.8241 | val/weighted_fgbf=0.1236 | val/weighted_fgbf_loss=0.1236 | val/accuracy=0.5654 | val/kappa=0.5179 | val/mae=0.6792 | val/macro_f1=0.5097 | val/fgbf_low_grade_accuracy=0.6032 | val/fgbf_kl0_precision=0.6204 | val/fgbf_kl0_recall=0.7774 | val/fgbf_kl0_f1=0.6901 | val/fgbf_kl1_precision=0.3711 | val/fgbf_kl1_recall=0.2353 | val/fgbf_kl1_f1=0.2880 | val/fgbf_kl2_precision=0.6865 | val/fgbf_kl2_recall=0.5991 | val/fgbf_kl2_f1=0.6398 | val/fgbf_boundary_KL1_to_KL0=90.0000 | val/fgbf_boundary_KL1_to_KL2=27.0000
+2026-09-02 13:53:05 | INFO     | trainer | epoch=19/60 | time=30.8s | lr=7.94e-05 | train/kl=1.0070 | train/main=1.0070 | train/total=1.1124 | train/fgbf=0.7031 | train/fgbf_loss=0.7031 | train/weighted_fgbf=0.1055 | train/weighted_fgbf_loss=0.1055 | train/fgbf_grad_norm=0.1981 | train/backbone_grad_norm=10.6458 | train/accuracy=0.6636 | val/kl=1.1956 | val/main=1.1956 | val/total=1.3108 | val/fgbf=0.7680 | val/fgbf_loss=0.7680 | val/weighted_fgbf=0.1152 | val/weighted_fgbf_loss=0.1152 | val/accuracy=0.5872 | val/kappa=0.5553 | val/mae=0.6465 | val/macro_f1=0.5033 | val/fgbf_low_grade_accuracy=0.6248 | val/fgbf_kl0_precision=0.6117 | val/fgbf_kl0_recall=0.8933 | val/fgbf_kl0_f1=0.7261 | val/fgbf_kl1_precision=0.3704 | val/fgbf_kl1_recall=0.1307 | val/fgbf_kl1_f1=0.1932 | val/fgbf_kl2_precision=0.7500 | val/fgbf_kl2_recall=0.5660 | val/fgbf_kl2_f1=0.6452 | val/fgbf_boundary_KL1_to_KL0=104.0000 | val/fgbf_boundary_KL1_to_KL2=29.0000
+2026-09-02 13:53:47 | INFO     | trainer | epoch=20/60 | time=30.8s | lr=7.72e-05 | train/kl=0.8947 | train/main=0.8947 | train/total=0.9871 | train/fgbf=0.6162 | train/fgbf_loss=0.6162 | train/weighted_fgbf=0.0924 | train/weighted_fgbf_loss=0.0924 | train/fgbf_grad_norm=0.2078 | train/backbone_grad_norm=12.6735 | train/accuracy=0.7194 | val/kl=1.1455 | val/main=1.1455 | val/total=1.2662 | val/fgbf=0.8048 | val/fgbf_loss=0.8048 | val/weighted_fgbf=0.1207 | val/weighted_fgbf_loss=0.1207 | val/accuracy=0.5956 | val/kappa=0.7217 | val/mae=0.5254 | val/macro_f1=0.5829 | val/fgbf_low_grade_accuracy=0.6133 | val/fgbf_kl0_precision=0.6676 | val/fgbf_kl0_recall=0.7652 | val/fgbf_kl0_f1=0.7131 | val/fgbf_kl1_precision=0.3284 | val/fgbf_kl1_recall=0.2876 | val/fgbf_kl1_f1=0.3066 | val/fgbf_kl2_precision=0.7104 | val/fgbf_kl2_recall=0.6132 | val/fgbf_kl2_f1=0.6582 | val/fgbf_boundary_KL1_to_KL0=81.0000 | val/fgbf_boundary_KL1_to_KL2=28.0000
+2026-09-02 13:53:48 | INFO     | trainer | Early stopping triggered at epoch 20 (no val QWK improvement for 10 epochs).
+2026-09-02 13:53:48 | INFO     | trainer | Restoring best model checkpoint (val_qwk=0.7612) from checkpoints\e2_fgbf_cbam_best.pt for evaluation...
+2026-09-02 13:53:48 | INFO     | trainer | Training complete. Generating reports …
+2026-09-02 13:53:48 | INFO     | reporting | Results directory: results\e2_fgbf_cbam\e2_fgbf_cbam
+2026-09-02 13:53:48 | INFO     | trainer | Collecting val logits …
+2026-09-02 13:54:00 | INFO     | trainer | Collecting train logits …
+2026-09-02 13:54:18 | INFO     | trainer | Collecting test logits …
+2026-09-02 13:54:30 | INFO     | reporting | Generating reports for experiment 'e2_fgbf_cbam' …
+2026-09-02 13:54:30 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\val_confusion_matrix.png
+2026-09-02 13:54:30 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\val_confusion_matrix.csv
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\test_confusion_matrix.png
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\test_confusion_matrix.csv
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\val_fgbf_confusion_matrix.png
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\val_fgbf_confusion_matrix.csv
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\test_fgbf_confusion_matrix.png
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\test_fgbf_confusion_matrix.csv
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\classification_report_val.txt
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\classification_report_test.txt
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\predictions.csv
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\metrics.json
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\metrics.csv
+2026-09-02 13:54:31 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\plots\loss_curve.png
+2026-09-02 13:54:32 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\plots\accuracy_curve.png
+2026-09-02 13:54:32 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\plots\loss_vs_accuracy.png
+2026-09-02 13:54:32 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\plots\f1_curve.png
+2026-09-02 13:54:32 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\plots\qwk_curve.png
+2026-09-02 13:54:32 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\plots\mae_curve.png
+2026-09-02 13:54:33 | INFO     | reporting | Saved results\e2_fgbf_cbam\e2_fgbf_cbam\plots\learning_rate_curve.png
+2026-09-02 13:54:33 | INFO     | reporting | ====================================================
+2026-09-02 13:54:33 | INFO     | reporting |   FINAL RESULTS
+2026-09-02 13:54:33 | INFO     | reporting | ====================================================
+2026-09-02 13:54:33 | INFO     | reporting | TRAIN
+2026-09-02 13:54:33 | INFO     | reporting |   Overall Accuracy   : 0.7105
+2026-09-02 13:54:33 | INFO     | reporting |   Macro Precision    : 0.7056
+2026-09-02 13:54:33 | INFO     | reporting |   Macro Recall       : 0.7246
+2026-09-02 13:54:33 | INFO     | reporting |   Macro F1           : 0.6985
+2026-09-02 13:54:33 | INFO     | reporting |   Weighted Precision : 0.6909
+2026-09-02 13:54:33 | INFO     | reporting |   Weighted Recall    : 0.7105
+2026-09-02 13:54:33 | INFO     | reporting |   Weighted F1        : 0.6859
+2026-09-02 13:54:33 | INFO     | reporting |   MAE                : 0.3618
+2026-09-02 13:54:33 | INFO     | reporting |   QWK                : 0.8291
+2026-09-02 13:54:33 | INFO     | reporting |   KL0 Recall         : 0.8546
+2026-09-02 13:54:33 | INFO     | reporting |   KL1 Recall         : 0.2208
+2026-09-02 13:54:33 | INFO     | reporting |   KL1 F1             : 0.3134
+2026-09-02 13:54:33 | INFO     | reporting |   KL2 Recall         : 0.7197
+2026-09-02 13:54:33 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 13:54:33 | INFO     | reporting |     KL1 -> KL0       : 444
+2026-09-02 13:54:33 | INFO     | reporting |     KL1 -> KL2       : 332
+2026-09-02 13:54:33 | INFO     | reporting |     KL0 -> KL1       : 134
+2026-09-02 13:54:33 | INFO     | reporting |     KL2 -> KL1       : 61
+2026-09-02 13:54:33 | INFO     | reporting |   FGBF Diagnostics (Auxiliary Head):
+2026-09-02 13:54:33 | INFO     | reporting |     FGBF Low-Grade Acc : 0.7152
+2026-09-02 13:54:33 | INFO     | reporting |     KL0 Prec/Rec/F1    : 0.7572 / 0.8577 / 0.8044
+2026-09-02 13:54:33 | INFO     | reporting |     KL1 Prec/Rec/F1    : 0.5099 / 0.2208 / 0.3082
+2026-09-02 13:54:33 | INFO     | reporting |     KL2 Prec/Rec/F1    : 0.7065 / 0.8417 / 0.7682
+2026-09-02 13:54:33 | INFO     | reporting |     FGBF Boundary Errors:
+2026-09-02 13:54:33 | INFO     | reporting |       KL1 -> KL0       : 455
+2026-09-02 13:54:33 | INFO     | reporting |       KL1 -> KL2       : 360
+2026-09-02 13:54:33 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 13:54:33 | INFO     | reporting | VALIDATION
+2026-09-02 13:54:33 | INFO     | reporting |   Overall Accuracy   : 0.6392
+2026-09-02 13:54:33 | INFO     | reporting |   Macro Precision    : 0.6062
+2026-09-02 13:54:33 | INFO     | reporting |   Macro Recall       : 0.6501
+2026-09-02 13:54:33 | INFO     | reporting |   Macro F1           : 0.6156
+2026-09-02 13:54:33 | INFO     | reporting |   Weighted Precision : 0.5993
+2026-09-02 13:54:33 | INFO     | reporting |   Weighted Recall    : 0.6392
+2026-09-02 13:54:33 | INFO     | reporting |   Weighted F1        : 0.6079
+2026-09-02 13:54:33 | INFO     | reporting |   MAE                : 0.4758
+2026-09-02 13:54:33 | INFO     | reporting |   QWK                : 0.7612
+2026-09-02 13:54:33 | INFO     | reporting |   KL0 Recall         : 0.7957
+2026-09-02 13:54:33 | INFO     | reporting |   KL1 Recall         : 0.1176
+2026-09-02 13:54:33 | INFO     | reporting |   KL1 F1             : 0.1722
+2026-09-02 13:54:33 | INFO     | reporting |   KL2 Recall         : 0.6745
+2026-09-02 13:54:33 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 13:54:33 | INFO     | reporting |     KL1 -> KL0       : 77
+2026-09-02 13:54:33 | INFO     | reporting |     KL1 -> KL2       : 50
+2026-09-02 13:54:33 | INFO     | reporting |     KL0 -> KL1       : 23
+2026-09-02 13:54:33 | INFO     | reporting |     KL2 -> KL1       : 14
+2026-09-02 13:54:33 | INFO     | reporting |   FGBF Diagnostics (Auxiliary Head):
+2026-09-02 13:54:33 | INFO     | reporting |     FGBF Low-Grade Acc : 0.6450
+2026-09-02 13:54:33 | INFO     | reporting |     KL0 Prec/Rec/F1    : 0.7013 / 0.8018 / 0.7482
+2026-09-02 13:54:33 | INFO     | reporting |     KL1 Prec/Rec/F1    : 0.3167 / 0.1242 / 0.1784
+2026-09-02 13:54:33 | INFO     | reporting |     KL2 Prec/Rec/F1    : 0.6395 / 0.7783 / 0.7021
+2026-09-02 13:54:33 | INFO     | reporting |     FGBF Boundary Errors:
+2026-09-02 13:54:33 | INFO     | reporting |       KL1 -> KL0       : 80
+2026-09-02 13:54:33 | INFO     | reporting |       KL1 -> KL2       : 54
+2026-09-02 13:54:33 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 13:54:33 | INFO     | reporting | TEST
+2026-09-02 13:54:33 | INFO     | reporting |   Overall Accuracy   : 0.6667
+2026-09-02 13:54:33 | INFO     | reporting |   Macro Precision    : 0.6403
+2026-09-02 13:54:33 | INFO     | reporting |   Macro Recall       : 0.6652
+2026-09-02 13:54:33 | INFO     | reporting |   Macro F1           : 0.6402
+2026-09-02 13:54:33 | INFO     | reporting |   Weighted Precision : 0.6305
+2026-09-02 13:54:33 | INFO     | reporting |   Weighted Recall    : 0.6667
+2026-09-02 13:54:33 | INFO     | reporting |   Weighted F1        : 0.6368
+2026-09-02 13:54:33 | INFO     | reporting |   MAE                : 0.4203
+2026-09-02 13:54:33 | INFO     | reporting |   QWK                : 0.8007
+2026-09-02 13:54:33 | INFO     | reporting |   KL0 Recall         : 0.8435
+2026-09-02 13:54:33 | INFO     | reporting |   KL1 Recall         : 0.1453
+2026-09-02 13:54:33 | INFO     | reporting |   KL1 F1             : 0.2087
+2026-09-02 13:54:33 | INFO     | reporting |   KL2 Recall         : 0.6510
+2026-09-02 13:54:33 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 13:54:33 | INFO     | reporting |     KL1 -> KL0       : 138
+2026-09-02 13:54:33 | INFO     | reporting |     KL1 -> KL2       : 105
+2026-09-02 13:54:33 | INFO     | reporting |     KL0 -> KL1       : 46
+2026-09-02 13:54:33 | INFO     | reporting |     KL2 -> KL1       : 26
+2026-09-02 13:54:33 | INFO     | reporting |   FGBF Diagnostics (Auxiliary Head):
+2026-09-02 13:54:33 | INFO     | reporting |     FGBF Low-Grade Acc : 0.6657
+2026-09-02 13:54:33 | INFO     | reporting |     KL0 Prec/Rec/F1    : 0.7081 / 0.8388 / 0.7679
+2026-09-02 13:54:33 | INFO     | reporting |     KL1 Prec/Rec/F1    : 0.3385 / 0.1486 / 0.2066
+2026-09-02 13:54:33 | INFO     | reporting |     KL2 Prec/Rec/F1    : 0.6869 / 0.7606 / 0.7219
+2026-09-02 13:54:33 | INFO     | reporting |     FGBF Boundary Errors:
+2026-09-02 13:54:33 | INFO     | reporting |       KL1 -> KL0       : 145
+2026-09-02 13:54:33 | INFO     | reporting |       KL1 -> KL2       : 107
+2026-09-02 13:54:33 | INFO     | reporting | ====================================================

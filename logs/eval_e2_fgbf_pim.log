@@ -1,0 +1,184 @@
+2026-09-02 13:24:46 | INFO     | utils | Logging to logs\eval_e2_fgbf_pim.log
+2026-09-02 13:24:48 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 13:24:48 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 13:24:48 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-09-02 13:24:48 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 13:24:48 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 13:24:48 | INFO     | __main__ | Collecting logits …
+2026-09-02 13:25:14 | INFO     | reporting | Results directory: results\e2_fgbf_pim\e2_fgbf_pim
+2026-09-02 13:25:14 | INFO     | reporting | Generating reports for experiment 'e2_fgbf_pim' …
+2026-09-02 13:25:14 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\val_confusion_matrix.png
+2026-09-02 13:25:14 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\val_confusion_matrix.csv
+2026-09-02 13:25:14 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\test_confusion_matrix.png
+2026-09-02 13:25:14 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\test_confusion_matrix.csv
+2026-09-02 13:25:15 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\val_fgbf_confusion_matrix.png
+2026-09-02 13:25:15 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\val_fgbf_confusion_matrix.csv
+2026-09-02 13:25:15 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\test_fgbf_confusion_matrix.png
+2026-09-02 13:25:15 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\test_fgbf_confusion_matrix.csv
+2026-09-02 13:25:15 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\classification_report_val.txt
+2026-09-02 13:25:15 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\classification_report_test.txt
+2026-09-02 13:25:15 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\predictions.csv
+2026-09-02 13:25:15 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\metrics.json
+2026-09-02 13:25:15 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\metrics.csv
+2026-09-02 13:25:15 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-09-02 13:25:15 | INFO     | reporting | ====================================================
+2026-09-02 13:25:15 | INFO     | reporting |   FINAL RESULTS
+2026-09-02 13:25:15 | INFO     | reporting | ====================================================
+2026-09-02 13:25:15 | INFO     | reporting | TRAIN
+2026-09-02 13:25:15 | INFO     | reporting |   Overall Accuracy   : nan
+2026-09-02 13:25:15 | INFO     | reporting |   Macro Precision    : nan
+2026-09-02 13:25:15 | INFO     | reporting |   Macro Recall       : nan
+2026-09-02 13:25:15 | INFO     | reporting |   Macro F1           : nan
+2026-09-02 13:25:15 | INFO     | reporting |   Weighted Precision : nan
+2026-09-02 13:25:15 | INFO     | reporting |   Weighted Recall    : nan
+2026-09-02 13:25:15 | INFO     | reporting |   Weighted F1        : nan
+2026-09-02 13:25:15 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 13:25:15 | INFO     | reporting | VALIDATION
+2026-09-02 13:25:15 | INFO     | reporting |   Overall Accuracy   : 0.6441
+2026-09-02 13:25:15 | INFO     | reporting |   Macro Precision    : 0.6367
+2026-09-02 13:25:15 | INFO     | reporting |   Macro Recall       : 0.6432
+2026-09-02 13:25:15 | INFO     | reporting |   Macro F1           : 0.6345
+2026-09-02 13:25:15 | INFO     | reporting |   Weighted Precision : 0.6206
+2026-09-02 13:25:15 | INFO     | reporting |   Weighted Recall    : 0.6441
+2026-09-02 13:25:15 | INFO     | reporting |   Weighted F1        : 0.6258
+2026-09-02 13:25:15 | INFO     | reporting |   MAE                : 0.4516
+2026-09-02 13:25:15 | INFO     | reporting |   QWK                : 0.7775
+2026-09-02 13:25:15 | INFO     | reporting |   KL0 Recall         : 0.8354
+2026-09-02 13:25:15 | INFO     | reporting |   KL1 Recall         : 0.2222
+2026-09-02 13:25:15 | INFO     | reporting |   KL1 F1             : 0.2742
+2026-09-02 13:25:15 | INFO     | reporting |   KL2 Recall         : 0.5896
+2026-09-02 13:25:15 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 13:25:15 | INFO     | reporting |     KL1 -> KL0       : 83
+2026-09-02 13:25:15 | INFO     | reporting |     KL1 -> KL2       : 32
+2026-09-02 13:25:15 | INFO     | reporting |     KL0 -> KL1       : 32
+2026-09-02 13:25:15 | INFO     | reporting |     KL2 -> KL1       : 29
+2026-09-02 13:25:15 | INFO     | reporting |   FGBF Diagnostics (Auxiliary Head):
+2026-09-02 13:25:15 | INFO     | reporting |     FGBF Low-Grade Acc : 0.6465
+2026-09-02 13:25:15 | INFO     | reporting |     KL0 Prec/Rec/F1    : 0.6899 / 0.8140 / 0.7469
+2026-09-02 13:25:15 | INFO     | reporting |     KL1 Prec/Rec/F1    : 0.3621 / 0.2745 / 0.3123
+2026-09-02 13:25:15 | INFO     | reporting |     KL2 Prec/Rec/F1    : 0.7316 / 0.6557 / 0.6915
+2026-09-02 13:25:15 | INFO     | reporting |     FGBF Boundary Errors:
+2026-09-02 13:25:15 | INFO     | reporting |       KL1 -> KL0       : 81
+2026-09-02 13:25:15 | INFO     | reporting |       KL1 -> KL2       : 30
+2026-09-02 13:25:15 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 13:25:15 | INFO     | reporting | TEST
+2026-09-02 13:25:15 | INFO     | reporting |   Overall Accuracy   : 0.6618
+2026-09-02 13:25:15 | INFO     | reporting |   Macro Precision    : 0.6607
+2026-09-02 13:25:15 | INFO     | reporting |   Macro Recall       : 0.6428
+2026-09-02 13:25:15 | INFO     | reporting |   Macro F1           : 0.6457
+2026-09-02 13:25:15 | INFO     | reporting |   Weighted Precision : 0.6373
+2026-09-02 13:25:15 | INFO     | reporting |   Weighted Recall    : 0.6618
+2026-09-02 13:25:15 | INFO     | reporting |   Weighted F1        : 0.6418
+2026-09-02 13:25:15 | INFO     | reporting |   MAE                : 0.4161
+2026-09-02 13:25:15 | INFO     | reporting |   QWK                : 0.8024
+2026-09-02 13:25:15 | INFO     | reporting |   KL0 Recall         : 0.8826
+2026-09-02 13:25:15 | INFO     | reporting |   KL1 Recall         : 0.2128
+2026-09-02 13:25:15 | INFO     | reporting |   KL1 F1             : 0.2653
+2026-09-02 13:25:15 | INFO     | reporting |   KL2 Recall         : 0.6018
+2026-09-02 13:25:15 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 13:25:15 | INFO     | reporting |     KL1 -> KL0       : 163
+2026-09-02 13:25:15 | INFO     | reporting |     KL1 -> KL2       : 66
+2026-09-02 13:25:15 | INFO     | reporting |     KL0 -> KL1       : 47
+2026-09-02 13:25:15 | INFO     | reporting |     KL2 -> KL1       : 63
+2026-09-02 13:25:15 | INFO     | reporting |   FGBF Diagnostics (Auxiliary Head):
+2026-09-02 13:25:15 | INFO     | reporting |     FGBF Low-Grade Acc : 0.6650
+2026-09-02 13:25:15 | INFO     | reporting |     KL0 Prec/Rec/F1    : 0.7016 / 0.8685 / 0.7762
+2026-09-02 13:25:15 | INFO     | reporting |     KL1 Prec/Rec/F1    : 0.3538 / 0.2534 / 0.2953
+2026-09-02 13:25:15 | INFO     | reporting |     KL2 Prec/Rec/F1    : 0.7625 / 0.6465 / 0.6998
+2026-09-02 13:25:15 | INFO     | reporting |     FGBF Boundary Errors:
+2026-09-02 13:25:15 | INFO     | reporting |       KL1 -> KL0       : 159
+2026-09-02 13:25:15 | INFO     | reporting |       KL1 -> KL2       : 62
+2026-09-02 13:25:15 | INFO     | reporting | ====================================================
+2026-09-02 13:25:18 | INFO     | utils | Logging to logs\eval_e2_fgbf_pim.log
+2026-09-02 13:25:19 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 13:25:19 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 13:25:19 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-09-02 13:25:19 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 13:25:19 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 13:25:19 | INFO     | __main__ | Collecting logits …
+2026-09-02 13:25:46 | INFO     | reporting | Results directory: results\e2_fgbf_pim\e2_fgbf_pim
+2026-09-02 13:25:46 | INFO     | reporting | Generating reports for experiment 'e2_fgbf_pim' …
+2026-09-02 13:25:46 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\val_confusion_matrix.png
+2026-09-02 13:25:46 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\val_confusion_matrix.csv
+2026-09-02 13:25:46 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\test_confusion_matrix.png
+2026-09-02 13:25:46 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\test_confusion_matrix.csv
+2026-09-02 13:25:46 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\val_fgbf_confusion_matrix.png
+2026-09-02 13:25:46 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\val_fgbf_confusion_matrix.csv
+2026-09-02 13:25:47 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\test_fgbf_confusion_matrix.png
+2026-09-02 13:25:47 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\test_fgbf_confusion_matrix.csv
+2026-09-02 13:25:47 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\classification_report_val.txt
+2026-09-02 13:25:47 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\classification_report_test.txt
+2026-09-02 13:25:47 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\predictions.csv
+2026-09-02 13:25:47 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\metrics.json
+2026-09-02 13:25:47 | INFO     | reporting | Saved results\e2_fgbf_pim\e2_fgbf_pim\metrics.csv
+2026-09-02 13:25:47 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-09-02 13:25:47 | INFO     | reporting | ====================================================
+2026-09-02 13:25:47 | INFO     | reporting |   FINAL RESULTS
+2026-09-02 13:25:47 | INFO     | reporting | ====================================================
+2026-09-02 13:25:47 | INFO     | reporting | TRAIN
+2026-09-02 13:25:47 | INFO     | reporting |   Overall Accuracy   : nan
+2026-09-02 13:25:47 | INFO     | reporting |   Macro Precision    : nan
+2026-09-02 13:25:47 | INFO     | reporting |   Macro Recall       : nan
+2026-09-02 13:25:47 | INFO     | reporting |   Macro F1           : nan
+2026-09-02 13:25:47 | INFO     | reporting |   Weighted Precision : nan
+2026-09-02 13:25:47 | INFO     | reporting |   Weighted Recall    : nan
+2026-09-02 13:25:47 | INFO     | reporting |   Weighted F1        : nan
+2026-09-02 13:25:47 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 13:25:47 | INFO     | reporting | VALIDATION
+2026-09-02 13:25:47 | INFO     | reporting |   Overall Accuracy   : 0.6441
+2026-09-02 13:25:47 | INFO     | reporting |   Macro Precision    : 0.6367
+2026-09-02 13:25:47 | INFO     | reporting |   Macro Recall       : 0.6432
+2026-09-02 13:25:47 | INFO     | reporting |   Macro F1           : 0.6345
+2026-09-02 13:25:47 | INFO     | reporting |   Weighted Precision : 0.6206
+2026-09-02 13:25:47 | INFO     | reporting |   Weighted Recall    : 0.6441
+2026-09-02 13:25:47 | INFO     | reporting |   Weighted F1        : 0.6258
+2026-09-02 13:25:47 | INFO     | reporting |   MAE                : 0.4516
+2026-09-02 13:25:47 | INFO     | reporting |   QWK                : 0.7775
+2026-09-02 13:25:47 | INFO     | reporting |   KL0 Recall         : 0.8354
+2026-09-02 13:25:47 | INFO     | reporting |   KL1 Recall         : 0.2222
+2026-09-02 13:25:47 | INFO     | reporting |   KL1 F1             : 0.2742
+2026-09-02 13:25:47 | INFO     | reporting |   KL2 Recall         : 0.5896
+2026-09-02 13:25:47 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 13:25:47 | INFO     | reporting |     KL1 -> KL0       : 83
+2026-09-02 13:25:47 | INFO     | reporting |     KL1 -> KL2       : 32
+2026-09-02 13:25:47 | INFO     | reporting |     KL0 -> KL1       : 32
+2026-09-02 13:25:47 | INFO     | reporting |     KL2 -> KL1       : 29
+2026-09-02 13:25:47 | INFO     | reporting |   FGBF Diagnostics (Auxiliary Head):
+2026-09-02 13:25:47 | INFO     | reporting |     FGBF Low-Grade Acc : 0.6465
+2026-09-02 13:25:47 | INFO     | reporting |     KL0 Prec/Rec/F1    : 0.6899 / 0.8140 / 0.7469
+2026-09-02 13:25:47 | INFO     | reporting |     KL1 Prec/Rec/F1    : 0.3621 / 0.2745 / 0.3123
+2026-09-02 13:25:47 | INFO     | reporting |     KL2 Prec/Rec/F1    : 0.7316 / 0.6557 / 0.6915
+2026-09-02 13:25:47 | INFO     | reporting |     FGBF Boundary Errors:
+2026-09-02 13:25:47 | INFO     | reporting |       KL1 -> KL0       : 81
+2026-09-02 13:25:47 | INFO     | reporting |       KL1 -> KL2       : 30
+2026-09-02 13:25:47 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 13:25:47 | INFO     | reporting | TEST
+2026-09-02 13:25:47 | INFO     | reporting |   Overall Accuracy   : 0.6618
+2026-09-02 13:25:47 | INFO     | reporting |   Macro Precision    : 0.6607
+2026-09-02 13:25:47 | INFO     | reporting |   Macro Recall       : 0.6428
+2026-09-02 13:25:47 | INFO     | reporting |   Macro F1           : 0.6457
+2026-09-02 13:25:47 | INFO     | reporting |   Weighted Precision : 0.6373
+2026-09-02 13:25:47 | INFO     | reporting |   Weighted Recall    : 0.6618
+2026-09-02 13:25:47 | INFO     | reporting |   Weighted F1        : 0.6418
+2026-09-02 13:25:47 | INFO     | reporting |   MAE                : 0.4161
+2026-09-02 13:25:47 | INFO     | reporting |   QWK                : 0.8024
+2026-09-02 13:25:47 | INFO     | reporting |   KL0 Recall         : 0.8826
+2026-09-02 13:25:47 | INFO     | reporting |   KL1 Recall         : 0.2128
+2026-09-02 13:25:47 | INFO     | reporting |   KL1 F1             : 0.2653
+2026-09-02 13:25:47 | INFO     | reporting |   KL2 Recall         : 0.6018
+2026-09-02 13:25:47 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 13:25:47 | INFO     | reporting |     KL1 -> KL0       : 163
+2026-09-02 13:25:47 | INFO     | reporting |     KL1 -> KL2       : 66
+2026-09-02 13:25:47 | INFO     | reporting |     KL0 -> KL1       : 47
+2026-09-02 13:25:47 | INFO     | reporting |     KL2 -> KL1       : 63
+2026-09-02 13:25:47 | INFO     | reporting |   FGBF Diagnostics (Auxiliary Head):
+2026-09-02 13:25:47 | INFO     | reporting |     FGBF Low-Grade Acc : 0.6650
+2026-09-02 13:25:47 | INFO     | reporting |     KL0 Prec/Rec/F1    : 0.7016 / 0.8685 / 0.7762
+2026-09-02 13:25:47 | INFO     | reporting |     KL1 Prec/Rec/F1    : 0.3538 / 0.2534 / 0.2953
+2026-09-02 13:25:47 | INFO     | reporting |     KL2 Prec/Rec/F1    : 0.7625 / 0.6465 / 0.6998
+2026-09-02 13:25:47 | INFO     | reporting |     FGBF Boundary Errors:
+2026-09-02 13:25:47 | INFO     | reporting |       KL1 -> KL0       : 159
+2026-09-02 13:25:47 | INFO     | reporting |       KL1 -> KL2       : 62
+2026-09-02 13:25:47 | INFO     | reporting | ====================================================
+2026-09-02 13:25:47 | INFO     | visualization | Generating evaluation visualizations in results\e2_fgbf_pim\e2_fgbf_pim\visualizations ...
+2026-09-02 13:26:07 | INFO     | visualization | Saved 15 evaluation visualization images to results\e2_fgbf_pim\e2_fgbf_pim\visualizations

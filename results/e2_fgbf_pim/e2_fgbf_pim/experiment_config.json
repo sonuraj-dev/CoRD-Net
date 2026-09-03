@@ -1,0 +1,12 @@
+{
+  "experiment": "e2_fgbf_pim",
+  "seed": 42,
+  "loss_type": "ce",
+  "sampler": "none",
+  "augmentation": "mild",
+  "epochs": 60,
+  "patience": 10,
+  "batch_size": 16,
+  "num_classes": 5,
+  "use_aux_heads": false
+}

@@ -1,0 +1,144 @@
+2026-09-02 12:41:57 | INFO     | utils | Logging to logs\eval_e2.log
+2026-09-02 12:41:58 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 12:41:58 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 12:41:58 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-09-02 12:41:58 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 12:41:58 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 12:41:58 | INFO     | __main__ | Collecting logits …
+2026-09-02 12:42:22 | INFO     | reporting | Results directory: results\e2\e2
+2026-09-02 12:42:22 | INFO     | reporting | Generating reports for experiment 'e2' …
+2026-09-02 12:42:23 | INFO     | reporting | Saved results\e2\e2\val_confusion_matrix.png
+2026-09-02 12:42:23 | INFO     | reporting | Saved results\e2\e2\val_confusion_matrix.csv
+2026-09-02 12:42:23 | INFO     | reporting | Saved results\e2\e2\test_confusion_matrix.png
+2026-09-02 12:42:23 | INFO     | reporting | Saved results\e2\e2\test_confusion_matrix.csv
+2026-09-02 12:42:23 | INFO     | reporting | Saved results\e2\e2\classification_report_val.txt
+2026-09-02 12:42:23 | INFO     | reporting | Saved results\e2\e2\classification_report_test.txt
+2026-09-02 12:42:23 | INFO     | reporting | Saved results\e2\e2\predictions.csv
+2026-09-02 12:42:23 | INFO     | reporting | Saved results\e2\e2\metrics.json
+2026-09-02 12:42:23 | INFO     | reporting | Saved results\e2\e2\metrics.csv
+2026-09-02 12:42:23 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-09-02 12:42:23 | INFO     | reporting | ====================================================
+2026-09-02 12:42:23 | INFO     | reporting |   FINAL RESULTS
+2026-09-02 12:42:23 | INFO     | reporting | ====================================================
+2026-09-02 12:42:23 | INFO     | reporting | TRAIN
+2026-09-02 12:42:23 | INFO     | reporting |   Overall Accuracy   : nan
+2026-09-02 12:42:23 | INFO     | reporting |   Macro Precision    : nan
+2026-09-02 12:42:23 | INFO     | reporting |   Macro Recall       : nan
+2026-09-02 12:42:23 | INFO     | reporting |   Macro F1           : nan
+2026-09-02 12:42:23 | INFO     | reporting |   Weighted Precision : nan
+2026-09-02 12:42:23 | INFO     | reporting |   Weighted Recall    : nan
+2026-09-02 12:42:23 | INFO     | reporting |   Weighted F1        : nan
+2026-09-02 12:42:23 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 12:42:23 | INFO     | reporting | VALIDATION
+2026-09-02 12:42:23 | INFO     | reporting |   Overall Accuracy   : 0.6743
+2026-09-02 12:42:23 | INFO     | reporting |   Macro Precision    : 0.7145
+2026-09-02 12:42:23 | INFO     | reporting |   Macro Recall       : 0.6851
+2026-09-02 12:42:23 | INFO     | reporting |   Macro F1           : 0.6943
+2026-09-02 12:42:23 | INFO     | reporting |   Weighted Precision : 0.6895
+2026-09-02 12:42:23 | INFO     | reporting |   Weighted Recall    : 0.6743
+2026-09-02 12:42:23 | INFO     | reporting |   Weighted F1        : 0.6776
+2026-09-02 12:42:23 | INFO     | reporting |   MAE                : 0.3898
+2026-09-02 12:42:23 | INFO     | reporting |   QWK                : 0.8111
+2026-09-02 12:42:23 | INFO     | reporting |   KL0 Recall         : 0.7866
+2026-09-02 12:42:23 | INFO     | reporting |   KL1 Recall         : 0.4837
+2026-09-02 12:42:23 | INFO     | reporting |   KL1 F1             : 0.4315
+2026-09-02 12:42:23 | INFO     | reporting |   KL2 Recall         : 0.5472
+2026-09-02 12:42:23 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 12:42:23 | INFO     | reporting |     KL1 -> KL0       : 51
+2026-09-02 12:42:23 | INFO     | reporting |     KL1 -> KL2       : 22
+2026-09-02 12:42:23 | INFO     | reporting |     KL0 -> KL1       : 54
+2026-09-02 12:42:23 | INFO     | reporting |     KL2 -> KL1       : 59
+2026-09-02 12:42:23 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 12:42:23 | INFO     | reporting | TEST
+2026-09-02 12:42:23 | INFO     | reporting |   Overall Accuracy   : 0.6449
+2026-09-02 12:42:23 | INFO     | reporting |   Macro Precision    : 0.6932
+2026-09-02 12:42:23 | INFO     | reporting |   Macro Recall       : 0.6539
+2026-09-02 12:42:23 | INFO     | reporting |   Macro F1           : 0.6647
+2026-09-02 12:42:23 | INFO     | reporting |   Weighted Precision : 0.6704
+2026-09-02 12:42:23 | INFO     | reporting |   Weighted Recall    : 0.6449
+2026-09-02 12:42:23 | INFO     | reporting |   Weighted F1        : 0.6497
+2026-09-02 12:42:23 | INFO     | reporting |   MAE                : 0.4022
+2026-09-02 12:42:23 | INFO     | reporting |   QWK                : 0.8220
+2026-09-02 12:42:23 | INFO     | reporting |   KL0 Recall         : 0.7731
+2026-09-02 12:42:23 | INFO     | reporting |   KL1 Recall         : 0.4358
+2026-09-02 12:42:23 | INFO     | reporting |   KL1 F1             : 0.3702
+2026-09-02 12:42:23 | INFO     | reporting |   KL2 Recall         : 0.4922
+2026-09-02 12:42:23 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 12:42:23 | INFO     | reporting |     KL1 -> KL0       : 118
+2026-09-02 12:42:23 | INFO     | reporting |     KL1 -> KL2       : 44
+2026-09-02 12:42:23 | INFO     | reporting |     KL0 -> KL1       : 126
+2026-09-02 12:42:23 | INFO     | reporting |     KL2 -> KL1       : 139
+2026-09-02 12:42:23 | INFO     | reporting | ====================================================
+2026-09-02 12:42:26 | INFO     | utils | Logging to logs\eval_e2.log
+2026-09-02 12:42:27 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 12:42:27 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 12:42:27 | INFO     | dataset | Dataset ready — train: 5778  val: 826
+2026-09-02 12:42:27 | INFO     | dataset | Split mode: pre-split directories (train/ val/ test/)
+2026-09-02 12:42:27 | INFO     | dataset | Pre-split layout detected: train=5778  val=826  test=1656
+2026-09-02 12:42:27 | INFO     | __main__ | Collecting logits …
+2026-09-02 12:42:51 | INFO     | reporting | Results directory: results\e2\e2
+2026-09-02 12:42:51 | INFO     | reporting | Generating reports for experiment 'e2' …
+2026-09-02 12:42:51 | INFO     | reporting | Saved results\e2\e2\val_confusion_matrix.png
+2026-09-02 12:42:51 | INFO     | reporting | Saved results\e2\e2\val_confusion_matrix.csv
+2026-09-02 12:42:52 | INFO     | reporting | Saved results\e2\e2\test_confusion_matrix.png
+2026-09-02 12:42:52 | INFO     | reporting | Saved results\e2\e2\test_confusion_matrix.csv
+2026-09-02 12:42:52 | INFO     | reporting | Saved results\e2\e2\classification_report_val.txt
+2026-09-02 12:42:52 | INFO     | reporting | Saved results\e2\e2\classification_report_test.txt
+2026-09-02 12:42:52 | INFO     | reporting | Saved results\e2\e2\predictions.csv
+2026-09-02 12:42:52 | INFO     | reporting | Saved results\e2\e2\metrics.json
+2026-09-02 12:42:52 | INFO     | reporting | Saved results\e2\e2\metrics.csv
+2026-09-02 12:42:52 | WARNING  | reporting | Training history is empty — skipping plots.
+2026-09-02 12:42:52 | INFO     | reporting | ====================================================
+2026-09-02 12:42:52 | INFO     | reporting |   FINAL RESULTS
+2026-09-02 12:42:52 | INFO     | reporting | ====================================================
+2026-09-02 12:42:52 | INFO     | reporting | TRAIN
+2026-09-02 12:42:52 | INFO     | reporting |   Overall Accuracy   : nan
+2026-09-02 12:42:52 | INFO     | reporting |   Macro Precision    : nan
+2026-09-02 12:42:52 | INFO     | reporting |   Macro Recall       : nan
+2026-09-02 12:42:52 | INFO     | reporting |   Macro F1           : nan
+2026-09-02 12:42:52 | INFO     | reporting |   Weighted Precision : nan
+2026-09-02 12:42:52 | INFO     | reporting |   Weighted Recall    : nan
+2026-09-02 12:42:52 | INFO     | reporting |   Weighted F1        : nan
+2026-09-02 12:42:52 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 12:42:52 | INFO     | reporting | VALIDATION
+2026-09-02 12:42:52 | INFO     | reporting |   Overall Accuracy   : 0.6743
+2026-09-02 12:42:52 | INFO     | reporting |   Macro Precision    : 0.7145
+2026-09-02 12:42:52 | INFO     | reporting |   Macro Recall       : 0.6851
+2026-09-02 12:42:52 | INFO     | reporting |   Macro F1           : 0.6943
+2026-09-02 12:42:52 | INFO     | reporting |   Weighted Precision : 0.6895
+2026-09-02 12:42:52 | INFO     | reporting |   Weighted Recall    : 0.6743
+2026-09-02 12:42:52 | INFO     | reporting |   Weighted F1        : 0.6776
+2026-09-02 12:42:52 | INFO     | reporting |   MAE                : 0.3898
+2026-09-02 12:42:52 | INFO     | reporting |   QWK                : 0.8111
+2026-09-02 12:42:52 | INFO     | reporting |   KL0 Recall         : 0.7866
+2026-09-02 12:42:52 | INFO     | reporting |   KL1 Recall         : 0.4837
+2026-09-02 12:42:52 | INFO     | reporting |   KL1 F1             : 0.4315
+2026-09-02 12:42:52 | INFO     | reporting |   KL2 Recall         : 0.5472
+2026-09-02 12:42:52 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 12:42:52 | INFO     | reporting |     KL1 -> KL0       : 51
+2026-09-02 12:42:52 | INFO     | reporting |     KL1 -> KL2       : 22
+2026-09-02 12:42:52 | INFO     | reporting |     KL0 -> KL1       : 54
+2026-09-02 12:42:52 | INFO     | reporting |     KL2 -> KL1       : 59
+2026-09-02 12:42:52 | INFO     | reporting |   ------------------------------------------------
+2026-09-02 12:42:52 | INFO     | reporting | TEST
+2026-09-02 12:42:52 | INFO     | reporting |   Overall Accuracy   : 0.6449
+2026-09-02 12:42:52 | INFO     | reporting |   Macro Precision    : 0.6932
+2026-09-02 12:42:52 | INFO     | reporting |   Macro Recall       : 0.6539
+2026-09-02 12:42:52 | INFO     | reporting |   Macro F1           : 0.6647
+2026-09-02 12:42:52 | INFO     | reporting |   Weighted Precision : 0.6704
+2026-09-02 12:42:52 | INFO     | reporting |   Weighted Recall    : 0.6449
+2026-09-02 12:42:52 | INFO     | reporting |   Weighted F1        : 0.6497
+2026-09-02 12:42:52 | INFO     | reporting |   MAE                : 0.4022
+2026-09-02 12:42:52 | INFO     | reporting |   QWK                : 0.8220
+2026-09-02 12:42:52 | INFO     | reporting |   KL0 Recall         : 0.7731
+2026-09-02 12:42:52 | INFO     | reporting |   KL1 Recall         : 0.4358
+2026-09-02 12:42:52 | INFO     | reporting |   KL1 F1             : 0.3702
+2026-09-02 12:42:52 | INFO     | reporting |   KL2 Recall         : 0.4922
+2026-09-02 12:42:52 | INFO     | reporting |   Boundary Error Counts:
+2026-09-02 12:42:52 | INFO     | reporting |     KL1 -> KL0       : 118
+2026-09-02 12:42:52 | INFO     | reporting |     KL1 -> KL2       : 44
+2026-09-02 12:42:52 | INFO     | reporting |     KL0 -> KL1       : 126
+2026-09-02 12:42:52 | INFO     | reporting |     KL2 -> KL1       : 139
+2026-09-02 12:42:52 | INFO     | reporting | ====================================================
+2026-09-02 12:42:52 | INFO     | visualization | Generating evaluation visualizations in results\e2\e2\visualizations ...
+2026-09-02 12:43:11 | INFO     | visualization | Saved 15 evaluation visualization images to results\e2\e2\visualizations

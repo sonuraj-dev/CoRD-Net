@@ -1,0 +1,41 @@
+{
+  "train": {},
+  "val": {
+    "accuracy": 0.6743341404358354,
+    "macro_precision": 0.7144559625056079,
+    "macro_recall": 0.6850763529832857,
+    "macro_f1": 0.6942673616632801,
+    "weighted_precision": 0.6894812197191509,
+    "weighted_recall": 0.6743341404358354,
+    "weighted_f1": 0.6775661045756415,
+    "mae": 0.3898305084745763,
+    "qwk": 0.8110556479940839,
+    "kl0_recall": 0.7865853658536586,
+    "kl1_recall": 0.48366013071895425,
+    "kl1_f1": 0.4314868804664723,
+    "kl2_recall": 0.5471698113207547,
+    "boundary_KL1_to_KL0": 51,
+    "boundary_KL1_to_KL2": 22,
+    "boundary_KL0_to_KL1": 54,
+    "boundary_KL2_to_KL1": 59
+  },
+  "test": {
+    "accuracy": 0.644927536231884,
+    "macro_precision": 0.6932136033736238,
+    "macro_recall": 0.6539206597423787,
+    "macro_f1": 0.6647165832301913,
+    "weighted_precision": 0.6703829953781463,
+    "weighted_recall": 0.644927536231884,
+    "weighted_f1": 0.6497100526540254,
+    "mae": 0.40217391304347827,
+    "qwk": 0.8220215560227294,
+    "kl0_recall": 0.7730829420970265,
+    "kl1_recall": 0.4358108108108108,
+    "kl1_f1": 0.37015781922525104,
+    "kl2_recall": 0.49217002237136465,
+    "boundary_KL1_to_KL0": 118,
+    "boundary_KL1_to_KL2": 44,
+    "boundary_KL0_to_KL1": 126,
+    "boundary_KL2_to_KL1": 139
+  }
+}
