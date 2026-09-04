@@ -1,0 +1,12 @@
+{
+  "experiment": "e4",
+  "seed": 42,
+  "loss_type": "weighted_ce",
+  "sampler": "weighted",
+  "augmentation": "mild",
+  "epochs": 50,
+  "patience": null,
+  "batch_size": 16,
+  "num_classes": 5,
+  "use_aux_heads": false
+}
