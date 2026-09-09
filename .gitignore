@@ -18,3 +18,11 @@ test.txt
 # OS
 .DS_Store
 Thumbs.db
+
+cordnet-env/
+logs/
+checkpoints/
+cordnet-env/
+checkpoints/
+*.pt
+*.pth

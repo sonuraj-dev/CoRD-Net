@@ -1,0 +1,16 @@
+{
+  "experiment": "e3",
+  "seed": 42,
+  "loss_type": "weighted_ce",
+  "sampler": "none",
+  "swa": false,
+  "swa_num_checkpoints": 5,
+  "augmentation": "mild",
+  "epochs": 60,
+  "patience": 10,
+  "batch_size": 16,
+  "num_classes": 5,
+  "use_aux_heads": false,
+  "grad_checkpoint": false,
+  "grad_accum_steps": 1
+}
