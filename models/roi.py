@@ -135,8 +135,7 @@ class DRPBlock(nn.Module):
         # classifier input dims start truly inert instead of injecting an
         # arbitrary random embedding, and only pick up signal as both this
         # block and the classifier's weights for those dims are trained.
-        nn.init.zeros_(self.proj[0].weight)
-        nn.init.zeros_(self.proj[0].bias)
+        
 
     def forward(self, feature_map: torch.Tensor) -> torch.Tensor:
         """
